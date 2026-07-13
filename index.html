@@ -447,7 +447,7 @@
       return;
     }
     emptyState.style.display = 'none';
-    matches.slice(0, 30).forEach((c, idx) => {
+    matches.slice(0, 110).forEach((c, idx) => {
       const item = document.createElement('div');
       item.className = 'result-item';
       item.textContent = c.nome;
@@ -457,13 +457,23 @@
     resultsBox.classList.add('open');
   }
 
+  function allKnightsSorted(){
+    return [...CAVALEIROS].sort((a,b) => a.nome.localeCompare(b.nome, 'pt-BR'));
+  }
+
   searchInput.addEventListener('input', () => {
     const q = normalize(searchInput.value.trim());
     if(q === ''){
-      renderResults([]);
+      renderResults(allKnightsSorted());
       return;
     }
     const matches = CAVALEIROS.filter(c => normalize(c.nome).includes(q));
+    renderResults(matches);
+  });
+
+  searchInput.addEventListener('focus', () => {
+    const q = normalize(searchInput.value.trim());
+    const matches = q === '' ? allKnightsSorted() : CAVALEIROS.filter(c => normalize(c.nome).includes(q));
     renderResults(matches);
   });
 
