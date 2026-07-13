@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MáfiaBR — Consulta de Cavaleiros</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700;800&family=Rajdhani:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#0A0D16;
+    --bg-deep:#060811;
+    --panel:#121729;
+    --panel-2:#171d33;
+    --line: rgba(197,163,103,0.18);
+    --text:#E7E9F2;
+    --text-dim:#9AA2BC;
+    --bronze:#C08A3E;
+    --bronze-soft: rgba(192,138,62,0.14);
+    --central:#DCE2EC;
+    --central-glow: rgba(220,226,236,0.35);
+    --vermelho:#C1272D;
+    --vermelho-glow: rgba(193,39,45,0.35);
+    --amarelo:#E8B400;
+    --amarelo-glow: rgba(232,180,0,0.35);
+    --azul:#2D6CDF;
+    --azul-glow: rgba(45,108,223,0.35);
+  }
+
+  *{box-sizing:border-box;}
+  html,body{margin:0;padding:0;}
+  body{
+    background:
+      radial-gradient(ellipse 900px 600px at 15% -10%, rgba(192,138,62,0.10), transparent 60%),
+      radial-gradient(ellipse 700px 500px at 100% 10%, rgba(45,108,223,0.08), transparent 55%),
+      var(--bg-deep);
+    color:var(--text);
+    font-family:'Rajdhani', sans-serif;
+    min-height:100vh;
+    position:relative;
+    overflow-x:hidden;
+  }
+
+  /* constellation backdrop */
+  #stars{
+    position:fixed; inset:0; z-index:0; pointer-events:none; opacity:0.55;
+  }
+
+  .wrap{
+    position:relative; z-index:1;
+    max-width:920px;
+    margin:0 auto;
+    padding: 56px 24px 100px;
+  }
+
+  header{ text-align:center; margin-bottom: 44px; }
+  .eyebrow{
+    font-family:'Rajdhani', sans-serif;
+    letter-spacing:0.45em;
+    font-size:12px;
+    font-weight:600;
+    color:var(--bronze);
+    text-transform:uppercase;
+    margin-bottom:14px;
+  }
+  h1{
+    font-family:'Cinzel', serif;
+    font-weight:700;
+    font-size:clamp(32px, 6vw, 52px);
+    letter-spacing:0.03em;
+    margin:0 0 8px;
+    background: linear-gradient(180deg, #fff2d6 0%, var(--bronze) 55%, #8a5f26 100%);
+    -webkit-background-clip:text;
+    background-clip:text;
+    color:transparent;
+    text-shadow: 0 0 40px rgba(192,138,62,0.25);
+  }
+  .sub{
+    color:var(--text-dim);
+    font-size:16px;
+    font-weight:500;
+    letter-spacing:0.02em;
+  }
+  .divider{
+    width:120px; height:1px; margin:22px auto 0;
+    background: linear-gradient(90deg, transparent, var(--bronze), transparent);
+  }
+
+  /* search */
+  .search-box{
+    position:relative;
+    max-width:520px;
+    margin: 0 auto 8px;
+  }
+  .search-box input{
+    width:100%;
+    background:var(--panel);
+    border:1px solid var(--line);
+    color:var(--text);
+    font-family:'Rajdhani',sans-serif;
+    font-size:18px;
+    font-weight:600;
+    letter-spacing:0.02em;
+    padding:16px 20px;
+    border-radius:2px;
+    outline:none;
+    transition: border-color .2s, box-shadow .2s;
+  }
+  .search-box input::placeholder{ color: var(--text-dim); font-weight:500; }
+  .search-box input:focus{
+    border-color: var(--bronze);
+    box-shadow: 0 0 0 3px var(--bronze-soft);
+  }
+  .search-box .count{
+    position:absolute; right:18px; top:50%; transform:translateY(-50%);
+    font-size:12px; color:var(--text-dim); letter-spacing:0.08em;
+    pointer-events:none;
+  }
+
+  .results{
+    max-width:520px;
+    margin:6px auto 0;
+    background:var(--panel);
+    border:1px solid var(--line);
+    border-radius:2px;
+    max-height:340px;
+    overflow-y:auto;
+    display:none;
+  }
+  .results.open{ display:block; }
+  .results::-webkit-scrollbar{ width:8px; }
+  .results::-webkit-scrollbar-thumb{ background:var(--bronze); border-radius:4px; }
+  .result-item{
+    padding:12px 20px;
+    cursor:pointer;
+    font-size:16px;
+    font-weight:600;
+    border-bottom:1px solid var(--line);
+    transition: background .12s;
+  }
+  .result-item:last-child{ border-bottom:none; }
+  .result-item:hover, .result-item.active{
+    background: var(--bronze-soft);
+    color:#f2d9ad;
+  }
+  .no-match{
+    padding:16px 20px; color:var(--text-dim); font-size:15px;
+  }
+
+  /* card */
+  #card{
+    margin-top:56px;
+    display:none;
+    animation: rise .35s ease;
+  }
+  @keyframes rise{
+    from{ opacity:0; transform: translateY(10px); }
+    to{ opacity:1; transform: translateY(0); }
+  }
+
+  .knight-header{
+    text-align:center;
+    margin-bottom:36px;
+    padding-bottom: 22px;
+    border-bottom: 1px solid var(--line);
+  }
+  .knight-header .k-eyebrow{
+    font-size:11px; letter-spacing:0.35em; color:var(--text-dim); text-transform:uppercase; margin-bottom:10px;
+  }
+  .knight-header h2{
+    font-family:'Cinzel', serif;
+    font-weight:700;
+    font-size:clamp(26px,4.5vw,38px);
+    margin:0;
+    color:#f4ead4;
+    letter-spacing:0.02em;
+  }
+
+  section.block{ margin-bottom: 44px; }
+  .block-title{
+    font-family:'Cinzel', serif;
+    font-size:14px;
+    letter-spacing:0.3em;
+    text-transform:uppercase;
+    color:var(--bronze);
+    margin-bottom:18px;
+    display:flex;
+    align-items:center;
+    gap:14px;
+  }
+  .block-title::after{
+    content:'';
+    flex:1;
+    height:1px;
+    background: linear-gradient(90deg, var(--line), transparent);
+  }
+
+  /* habilidades: progression */
+  .hab-track{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:14px;
+  }
+  .hab-stage{
+    background:var(--panel);
+    border:1px solid var(--line);
+    border-radius:3px;
+    padding:18px 16px;
+    text-align:center;
+    position:relative;
+  }
+  .hab-stage .stage-label{
+    font-size:11px; letter-spacing:0.25em; text-transform:uppercase;
+    color:var(--text-dim); margin-bottom:12px; font-weight:600;
+  }
+  .hab-stage .code{
+    font-family:'Cinzel', serif;
+    font-size:clamp(20px,4vw,28px);
+    font-weight:700;
+    letter-spacing:0.12em;
+    color:#f4ead4;
+    margin-bottom:8px;
+  }
+  .hab-stage .books{
+    font-size:13px;
+    color:var(--bronze);
+    font-weight:600;
+  }
+  .hab-stage.ideal{
+    border-color: rgba(192,138,62,0.55);
+    box-shadow: 0 0 24px rgba(192,138,62,0.12);
+  }
+  .hab-arrow{
+    display:none;
+  }
+  @media (min-width: 640px){
+    .hab-track{ grid-template-columns: 1fr auto 1fr auto 1fr; align-items:center; }
+    .hab-arrow{ display:flex; justify-content:center; color:var(--text-dim); font-size:20px; }
+  }
+
+  /* cosmos */
+  .cosmo-grid{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap:16px;
+  }
+  .cosmo-slot{
+    background:var(--panel);
+    border:1px solid var(--line);
+    border-radius:3px;
+    padding:18px 18px 16px;
+    position:relative;
+    overflow:hidden;
+  }
+  .cosmo-slot::before{
+    content:'';
+    position:absolute; left:0; top:0; bottom:0; width:4px;
+    background: var(--slot-color);
+    box-shadow: 0 0 16px var(--slot-glow);
+  }
+  .cosmo-slot .slot-name{
+    font-family:'Cinzel', serif;
+    font-size:13px;
+    letter-spacing:0.2em;
+    text-transform:uppercase;
+    font-weight:700;
+    color: var(--slot-color);
+    margin-bottom:14px;
+  }
+  .cosmo-list{ list-style:none; margin:0; padding:0; display:flex; flex-direction:column; gap:8px; }
+  .cosmo-list li{
+    font-size:15px;
+    font-weight:600;
+    color: var(--text);
+    padding:8px 12px;
+    background: rgba(255,255,255,0.03);
+    border:1px solid rgba(255,255,255,0.06);
+    border-radius:2px;
+    display:flex;
+    align-items:center;
+    gap:10px;
+  }
+  .cosmo-list li .dot{
+    width:6px; height:6px; border-radius:50%;
+    background: var(--slot-color);
+    flex-shrink:0;
+  }
+  .cosmo-empty{ font-size:13px; color:var(--text-dim); font-style:italic; }
+
+  footer{
+    text-align:center;
+    margin-top:70px;
+    padding-top:24px;
+    border-top:1px solid var(--line);
+    color:var(--text-dim);
+    font-size:13px;
+    letter-spacing:0.05em;
+  }
+  footer .legion{ color:var(--bronze); font-weight:700; letter-spacing:0.2em; }
+
+  .empty-state{
+    text-align:center;
+    color:var(--text-dim);
+    font-size:15px;
+    margin-top:40px;
+    display:none;
+  }
+
+  @media (prefers-reduced-motion: reduce){
+    #card{ animation:none; }
+  }
+</style>
+</head>
+<body>
+
+<canvas id="stars"></canvas>
+
+<div class="wrap">
+  <header>
+    <div class="eyebrow">Legião Saint Seiya Awakening</div>
+    <h1>MáfiaBR</h1>
+    <div class="sub">Consulta de Habilidades e Cosmos por Cavaleiro</div>
+    <div class="divider"></div>
+  </header>
+
+  <div class="search-box">
+    <input type="text" id="searchInput" placeholder="Digite o nome do cavaleiro..." autocomplete="off">
+    <span class="count" id="countLabel"></span>
+  </div>
+  <div class="results" id="results"></div>
+
+  <div class="empty-state" id="emptyState">Nenhum cavaleiro encontrado com esse nome.</div>
+
+  <div id="card">
+    <div class="knight-header">
+      <div class="k-eyebrow">Cavaleiro Selecionado</div>
+      <h2 id="knightName">—</h2>
+    </div>
+
+    <section class="block">
+      <div class="block-title">Progressão de Habilidade</div>
+      <div class="hab-track" id="habTrack"></div>
+    </section>
+
+    <section class="block">
+      <div class="block-title">Sugestão de Cosmos</div>
+      <div class="cosmo-grid" id="cosmoGrid"></div>
+    </section>
+  </div>
+
+  <footer>
+    <span class="legion">MÁFIABR</span> · Saint Seiya Awakening · dados mantidos no GitHub
+  </footer>
+</div>
+
+<script>
+  // ---------- constellation background ----------
+  (function(){
+    const canvas = document.getElementById('stars');
+    const ctx = canvas.getContext('2d');
+    let w, h, points;
+
+    function resize(){
+      w = canvas.width = window.innerWidth;
+      h = canvas.height = window.innerHeight;
+      const count = Math.floor((w*h)/22000);
+      points = Array.from({length: count}, () => ({
+        x: Math.random()*w,
+        y: Math.random()*h,
+        r: Math.random()*1.4 + 0.3,
+        vx: (Math.random()-0.5)*0.06,
+        vy: (Math.random()-0.5)*0.06
+      }));
+    }
+
+    function draw(){
+      ctx.clearRect(0,0,w,h);
+      ctx.fillStyle = 'rgba(231,233,242,0.55)';
+      for(const p of points){
+        p.x += p.vx; p.y += p.vy;
+        if(p.x < 0) p.x = w; if(p.x > w) p.x = 0;
+        if(p.y < 0) p.y = h; if(p.y > h) p.y = 0;
+        ctx.beginPath();
+        ctx.arc(p.x, p.y, p.r, 0, Math.PI*2);
+        ctx.fill();
+      }
+      ctx.strokeStyle = 'rgba(192,138,62,0.12)';
+      ctx.lineWidth = 1;
+      for(let i=0;i<points.length;i++){
+        for(let j=i+1;j<points.length;j++){
+          const dx = points[i].x-points[j].x, dy = points[i].y-points[j].y;
+          const d = Math.sqrt(dx*dx+dy*dy);
+          if(d < 110){
+            ctx.beginPath();
+            ctx.moveTo(points[i].x, points[i].y);
+            ctx.lineTo(points[j].x, points[j].y);
+            ctx.stroke();
+          }
+        }
+      }
+      requestAnimationFrame(draw);
+    }
+
+    const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    resize();
+    window.addEventListener('resize', resize);
+    if(!reduce){ draw(); } else {
+      draw(); // draw once
+    }
+  })();
+
+  // ---------- data + search ----------
+  let CAVALEIROS = [];
+
+  const searchInput = document.getElementById('searchInput');
+  const resultsBox = document.getElementById('results');
+  const countLabel = document.getElementById('countLabel');
+  const emptyState = document.getElementById('emptyState');
+  const card = document.getElementById('card');
+
+  fetch('cavaleiros.json')
+    .then(r => r.json())
+    .then(data => {
+      CAVALEIROS = data;
+      countLabel.textContent = data.length + ' cavaleiros';
+    })
+    .catch(err => {
+      countLabel.textContent = 'erro ao carregar dados';
+      console.error('Falha ao carregar cavaleiros.json', err);
+    });
+
+  let activeIndex = -1;
+  let currentMatches = [];
+
+  function normalize(s){
+    return s.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
+  }
+
+  function renderResults(matches){
+    currentMatches = matches;
+    activeIndex = -1;
+    resultsBox.innerHTML = '';
+    if(matches.length === 0){
+      resultsBox.classList.remove('open');
+      emptyState.style.display = searchInput.value.trim() ? 'block' : 'none';
+      return;
+    }
+    emptyState.style.display = 'none';
+    matches.slice(0, 30).forEach((c, idx) => {
+      const item = document.createElement('div');
+      item.className = 'result-item';
+      item.textContent = c.nome;
+      item.addEventListener('click', () => selectKnight(c));
+      resultsBox.appendChild(item);
+    });
+    resultsBox.classList.add('open');
+  }
+
+  searchInput.addEventListener('input', () => {
+    const q = normalize(searchInput.value.trim());
+    if(q === ''){
+      renderResults([]);
+      return;
+    }
+    const matches = CAVALEIROS.filter(c => normalize(c.nome).includes(q));
+    renderResults(matches);
+  });
+
+  searchInput.addEventListener('keydown', (e) => {
+    const items = resultsBox.querySelectorAll('.result-item');
+    if(e.key === 'ArrowDown'){
+      e.preventDefault();
+      activeIndex = Math.min(activeIndex+1, items.length-1);
+      updateActive(items);
+    } else if(e.key === 'ArrowUp'){
+      e.preventDefault();
+      activeIndex = Math.max(activeIndex-1, 0);
+      updateActive(items);
+    } else if(e.key === 'Enter'){
+      if(activeIndex >= 0 && currentMatches[activeIndex]){
+        selectKnight(currentMatches[activeIndex]);
+      } else if(currentMatches.length === 1){
+        selectKnight(currentMatches[0]);
+      }
+    } else if(e.key === 'Escape'){
+      resultsBox.classList.remove('open');
+    }
+  });
+
+  function updateActive(items){
+    items.forEach((it, i) => it.classList.toggle('active', i === activeIndex));
+    if(items[activeIndex]) items[activeIndex].scrollIntoView({block:'nearest'});
+  }
+
+  document.addEventListener('click', (e) => {
+    if(!e.target.closest('.search-box') && !e.target.closest('.results')){
+      resultsBox.classList.remove('open');
+    }
+  });
+
+  const COSMO_META = {
+    central:  { label: 'Central',  color: 'var(--central)',  glow: 'var(--central-glow)' },
+    vermelho: { label: 'Vermelho', color: 'var(--vermelho)', glow: 'var(--vermelho-glow)' },
+    amarelo:  { label: 'Amarelo',  color: 'var(--amarelo)',  glow: 'var(--amarelo-glow)' },
+    azul:     { label: 'Azul',     color: 'var(--azul)',     glow: 'var(--azul-glow)' },
+  };
+
+  function selectKnight(c){
+    searchInput.value = c.nome;
+    resultsBox.classList.remove('open');
+    emptyState.style.display = 'none';
+    document.getElementById('knightName').textContent = c.nome;
+
+    const habTrack = document.getElementById('habTrack');
+    habTrack.innerHTML = '';
+    const stages = [
+      { key: 'minimo', label: 'Mínimo' },
+      { key: 'media',  label: 'Média'  },
+      { key: 'ideal',  label: 'Ideal'  },
+    ];
+    if(c.habilidades){
+      stages.forEach((stage, i) => {
+        const s = c.habilidades[stage.key];
+        const div = document.createElement('div');
+        div.className = 'hab-stage' + (stage.key === 'ideal' ? ' ideal' : '');
+        div.innerHTML = `
+          <div class="stage-label">${stage.label}</div>
+          <div class="code">${s && s.habilidade !== 'nan' ? s.habilidade : '—'}</div>
+          <div class="books">${s && s.livros !== null ? s.livros + ' livros' : ''}</div>
+        `;
+        habTrack.appendChild(div);
+        if(i < stages.length-1){
+          const arrow = document.createElement('div');
+          arrow.className = 'hab-arrow';
+          arrow.textContent = '→';
+          habTrack.appendChild(arrow);
+        }
+      });
+    } else {
+      habTrack.innerHTML = '<div class="cosmo-empty">Sem dados de habilidade para este cavaleiro.</div>';
+    }
+
+    const cosmoGrid = document.getElementById('cosmoGrid');
+    cosmoGrid.innerHTML = '';
+    if(c.cosmos){
+      Object.keys(COSMO_META).forEach(key => {
+        const meta = COSMO_META[key];
+        const items = c.cosmos[key] || [];
+        const slot = document.createElement('div');
+        slot.className = 'cosmo-slot';
+        slot.style.setProperty('--slot-color', meta.color);
+        slot.style.setProperty('--slot-glow', meta.glow);
+        let listHtml = '';
+        if(items.length){
+          listHtml = '<ul class="cosmo-list">' + items.map(it => `<li><span class="dot"></span>${it}</li>`).join('') + '</ul>';
+        } else {
+          listHtml = '<div class="cosmo-empty">Sem sugestão registrada.</div>';
+        }
+        slot.innerHTML = `<div class="slot-name">${meta.label}</div>${listHtml}`;
+        cosmoGrid.appendChild(slot);
+      });
+    } else {
+      cosmoGrid.innerHTML = '<div class="cosmo-empty">Sem dados de cosmos para este cavaleiro.</div>';
+    }
+
+    card.style.display = 'block';
+    card.scrollIntoView({behavior: 'smooth', block: 'start'});
+  }
+</script>
+
+</body>
+</html>

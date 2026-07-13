@@ -1,0 +1,3944 @@
+[
+  {
+    "nome": "Afrodite",
+    "habilidades": {
+      "nome_original": "Afrodite",
+      "minimo": {
+        "habilidade": "1134",
+        "livros": 9
+      },
+      "media": {
+        "habilidade": "1155",
+        "livros": 20
+      },
+      "ideal": {
+        "habilidade": "4455",
+        "livros": 32
+      }
+    },
+    "cosmos": {
+      "central": [
+        "VÍBORA DE CHIFRES",
+        "DENTE DE DRAGÃO",
+        "FÚCSIA",
+        "QUIMERA"
+      ],
+      "vermelho": [
+        "LANÇA CHAMA",
+        "GALHOS"
+      ],
+      "amarelo": [
+        "SEIYA",
+        "A CRUZ",
+        "IMPRESSÃO ESPIRITUAL"
+      ],
+      "azul": [
+        "PÉROLAS DE NAGA"
+      ]
+    }
+  },
+  {
+    "nome": "Afrodite Peixe Divino",
+    "habilidades": {
+      "nome_original": "Afrodite Peixe Divino",
+      "minimo": {
+        "habilidade": "5114",
+        "livros": 16
+      },
+      "media": {
+        "habilidade": "5145",
+        "livros": 26
+      },
+      "ideal": {
+        "habilidade": "5155",
+        "livros": 30
+      }
+    },
+    "cosmos": {
+      "central": [
+        "VÍBORA DE CHIFRES",
+        "QUIMERA",
+        "FÚSCIA",
+        "DENTE DE DRAGÃO"
+      ],
+      "vermelho": [
+        "GALHOS",
+        "BAROQUE"
+      ],
+      "amarelo": [
+        "IMPRESSÃO ESPIRITUAL",
+        "A CRUZ"
+      ],
+      "azul": [
+        "PÉROLAS DE NAGA"
+      ]
+    }
+  },
+  {
+    "nome": "Afrodite Peixe Sapuris",
+    "habilidades": {
+      "nome_original": "Afrodite Peixe Sapuris",
+      "minimo": {
+        "habilidade": "4434",
+        "livros": 21
+      },
+      "media": {
+        "habilidade": "4535",
+        "livros": 29
+      },
+      "ideal": {
+        "habilidade": "5545",
+        "livros": 36
+      }
+    },
+    "cosmos": {
+      "central": [
+        "VÍBORA DE CHIFRES",
+        "ELFO DE SANGUE"
+      ],
+      "vermelho": [
+        "GALHOS",
+        "BAROQUE"
+      ],
+      "amarelo": [
+        "LICHIA GELADA",
+        "GLÓRIA MATINAL"
+      ],
+      "azul": [
+        "SONHO BOM",
+        "PÉROLAS DE NAGA"
+      ]
+    }
+  },
+  {
+    "nome": "Aiacos",
+    "habilidades": {
+      "nome_original": "Aiacos",
+      "minimo": {
+        "habilidade": "1153",
+        "livros": 13
+      },
+      "media": {
+        "habilidade": "1155",
+        "livros": 20
+      },
+      "ideal": {
+        "habilidade": "1555",
+        "livros": 30
+      }
+    },
+    "cosmos": {
+      "central": [
+        "CHAMA ETERNA",
+        "MANDALA",
+        "ÍRIS"
+      ],
+      "vermelho": [
+        "CÁLICE",
+        "ANEL DE FLOR"
+      ],
+      "amarelo": [
+        "JADE BORBOLETA",
+        "JADEÍTE"
+      ],
+      "azul": [
+        "ÁGUIA ESCARLATE",
+        "LUA NOVA"
+      ]
+    }
+  },
+  {
+    "nome": "Aiacos Garuda",
+    "habilidades": {
+      "nome_original": "Aiacos Garuda",
+      "minimo": {
+        "habilidade": "1122",
+        "livros": 2
+      },
+      "media": {
+        "habilidade": "1333",
+        "livros": 9
+      },
+      "ideal": {
+        "habilidade": "1555",
+        "livros": 30
+      }
+    },
+    "cosmos": {
+      "central": [
+        "DESACELERADOR",
+        "MANDALA"
+      ],
+      "vermelho": [
+        "ANEL DE FLOR",
+        "DANO DE METEORO"
+      ],
+      "amarelo": [
+        "LICHIA GELADA",
+        "RUNA DO DESTINO"
+      ],
+      "azul": [
+        "SONHO BOM",
+        "COROA DE OURO"
+      ]
+    }
+  },
+  {
+    "nome": "Aiolos",
+    "habilidades": {
+      "nome_original": "Aiolos",
+      "minimo": {
+        "habilidade": "1231",
+        "livros": 4
+      },
+      "media": {
+        "habilidade": "1531",
+        "livros": 13
+      },
+      "ideal": {
+        "habilidade": "1551",
+        "livros": 20
+      }
+    },
+    "cosmos": {
+      "central": [
+        "ESPADA DE DÂMOCLES",
+        "CORRENTE DE HEFESTO"
+      ],
+      "vermelho": [
+        "LANÇA CHAMAS",
+        "GALHOS"
+      ],
+      "amarelo": [
+        "A CRUZ",
+        "GLÓRIA MATINAL",
+        "IMPRESSÃO ESPIRITUAL"
+      ],
+      "azul": [
+        "CRISTAL DE FOGO",
+        "PÉROLA DE NAGAS"
+      ]
+    }
+  },
+  {
+    "nome": "Aiolos Divino",
+    "habilidades": {
+      "nome_original": "Aiolos Divino",
+      "minimo": {
+        "habilidade": "1143",
+        "livros": 9
+      },
+      "media": {
+        "habilidade": "1543",
+        "livros": 19
+      },
+      "ideal": {
+        "habilidade": "1555",
+        "livros": 30
+      }
+    },
+    "cosmos": {
+      "central": [
+        "ÍRIS",
+        "FADA DO PÂNTANO",
+        "VÍBORA DE CHIFRES"
+      ],
+      "vermelho": [
+        "ANEL DE FLOR",
+        "CÁLICE",
+        "BAROQUE",
+        "GALHOS"
+      ],
+      "amarelo": [
+        "FOLHA DE JADE",
+        "RUNA DO DESTINO",
+        "A CRUZ",
+        "IMPRESSÃO ESPIRITUAL"
+      ],
+      "azul": [
+        "SONHO BOM",
+        "LUA-NOVA",
+        "PÉROLAS DE NAGA"
+      ]
+    }
+  },
+  {
+    "nome": "Aioria",
+    "habilidades": {
+      "nome_original": "Aioria",
+      "minimo": {
+        "habilidade": "2115",
+        "livros": 11
+      },
+      "media": {
+        "habilidade": "3335",
+        "livros": 19
+      },
+      "ideal": {
+        "habilidade": "5535",
+        "livros": 33
+      }
+    },
+    "cosmos": {
+      "central": [
+        "VÍBORA DE CHIFRES"
+      ],
+      "vermelho": [
+        "LANÇA CHAMAS",
+        "GALHOS"
+      ],
+      "amarelo": [
+        "A CRUZ",
+        "GLÓRIA MATINAL",
+        "IMPRESSÃO ESPIRITUAL"
+      ],
+      "azul": [
+        "PÉROLAS DE NAGA"
+      ]
+    }
+  },
+  {
+    "nome": "Aioria Divino",
+    "habilidades": {
+      "nome_original": "Aioria Divino",
+      "minimo": {
+        "habilidade": "1125",
+        "livros": 11
+      },
+      "media": {
+        "habilidade": "1335",
+        "livros": 16
+      },
+      "ideal": {
+        "habilidade": "1555",
+        "livros": 30
+      }
+    },
+    "cosmos": {
+      "central": [
+        "VÍBORA DE CHIFRES",
+        "CÉU E TERRA"
+      ],
+      "vermelho": [
+        "GALHOS",
+        "BAROQUE"
+      ],
+      "amarelo": [
+        "A CRUZ",
+        "IMPRESSÃO ESPIRITUAL",
+        "GLÓRIA MATINAL"
+      ],
+      "azul": [
+        "PÉROLAS DE NAGA",
+        "SONHO BOM",
+        "CRISTAL DE FOGO"
+      ]
+    }
+  },
+  {
+    "nome": "Aldebaram",
+    "habilidades": {
+      "nome_original": "Aldebaram",
+      "minimo": {
+        "habilidade": "1251",
+        "livros": 11
+      },
+      "media": {
+        "habilidade": "1353",
+        "livros": 16
+      },
+      "ideal": {
+        "habilidade": "1555",
+        "livros": 30
+      }
+    },
+    "cosmos": {
+      "central": [
+        "FELINA",
+        "VÍBORA DE CHIFRES"
+      ],
+      "vermelho": [
+        "LANÇA CHAMA",
+        "GALHOS"
+      ],
+      "amarelo": [
+        "A CRUZ",
+        "GLÓRIA MATINAL",
+        "IMPRESSÃO ESPIRITUAL"
+      ],
+      "azul": [
+        "PÉROLAS DE NAGA"
+      ]
+    }
+  },
+  {
+    "nome": "Aldebaran Divino",
+    "habilidades": {
+      "nome_original": "Aldebaran Divino",
+      "minimo": {
+        "habilidade": "3315",
+        "livros": 16
+      },
+      "media": {
+        "habilidade": "4335",
+        "livros": 22
+      },
+      "ideal": {
+        "habilidade": "5535",
+        "livros": 33
+      }
+    },
+    "cosmos": {
+      "central": [
+        "ELFO DE SANGUE",
+        "FADA DO PÂNTANO"
+      ],
+      "vermelho": [
+        "GALHOS",
+        "BAROQUE"
+      ],
+      "amarelo": [
+        "GLÓRIA MATINAL",
+        "DOURO"
+      ],
+      "azul": [
+        "PÉROLAS DE NAGA"
+      ]
+    }
+  },
+  {
+    "nome": "Alfabica",
+    "habilidades": {
+      "nome_original": "Alfabica",
+      "minimo": {
+        "habilidade": "3451",
+        "livros": 19
+      },
+      "media": {
+        "habilidade": "4551",
+        "livros": 26
+      },
+      "ideal": {
+        "habilidade": "5553",
+        "livros": 33
+      }
+    },
+    "cosmos": {
+      "central": [
+        "FÚCSIA",
+        "JACINTO"
+      ],
+      "vermelho": [
+        "NÉVOA BRANCA",
+        "PEDREA F."
+      ],
+      "amarelo": [
+        "IMPRESSÃO ESPIRITUAL",
+        "GLÓRIA MATINAL"
+      ],
+      "azul": [
+        "FRUTO DA DISCÓRDIA",
+        "PÉROLAS DE NAGA"
+      ]
+    }
+  },
+  {
+    "nome": "Alone Hades",
+    "habilidades": {
+      "nome_original": "Alone Hades",
+      "minimo": {
+        "habilidade": "1434",
+        "livros": 15
+      },
+      "media": {
+        "habilidade": "tgyj",
+        "livros": 22
+      },
+      "ideal": {
+        "habilidade": "1555",
+        "livros": 30
+      }
+    },
+    "cosmos": {
+      "central": [
+        "CORRENTE DE HEFESTO",
+        "VIÚVA NEGRA",
+        "ÁRVORE DA RESSURREIÇÃO"
+      ],
+      "vermelho": [
+        "CÂNTIGO DO DRAGÃO"
+      ],
+      "amarelo": [
+        "A CRUZ",
+        "GLÓRIA MATINAL",
+        "IMPRESSÃO ESPIRITUAL"
+      ],
+      "azul": [
+        "BEIJA-FLOR",
+        "MUNDO INFERIOR"
+      ]
+    }
+  },
+  {
+    "nome": "Alone Solitário",
+    "habilidades": {
+      "nome_original": "Alone Solitário",
+      "minimo": {
+        "habilidade": "1435",
+        "livros": 19
+      },
+      "media": {
+        "habilidade": "3535",
+        "livros": 26
+      },
+      "ideal": {
+        "habilidade": "3555",
+        "livros": 33
+      }
+    },
+    "cosmos": {
+      "central": [
+        "FADA DO PÂNTANO",
+        "DENTE DE DRAGÃO",
+        "ÍRIS"
+      ],
+      "vermelho": [
+        "NÉVOA BRANCA",
+        "ANEL DE FLOR",
+        "CÁLICE"
+      ],
+      "amarelo": [
+        "DOURO",
+        "GLÓRIA MATINAL",
+        "FOLHA DE JADE",
+        "RUNA DO DESTINO"
+      ],
+      "azul": [
+        "GÂRDENIA",
+        "LUA-NOVA"
+      ]
+    }
+  },
+  {
+    "nome": "Apolo",
+    "habilidades": {
+      "nome_original": "Apolo",
+      "minimo": {
+        "habilidade": "1433",
+        "livros": 24
+      },
+      "media": {
+        "habilidade": "1554",
+        "livros": 52
+      },
+      "ideal": {
+        "habilidade": "3555",
+        "livros": 66
+      }
+    },
+    "cosmos": {
+      "central": [
+        "ÍRIS",
+        "ELFO DE SANGUE",
+        "ELFO DE VENTO",
+        "MANDALA"
+      ],
+      "vermelho": [
+        "DANO DE METEORO",
+        "CÂNTICO DE DRAGÃO"
+      ],
+      "amarelo": [
+        "LICHIA GELADA",
+        "GLÓRIA MATINAL",
+        "FOLHA DE JADE"
+      ],
+      "azul": [
+        "LUA NOVA",
+        "COROA DE OURO"
+      ]
+    }
+  },
+  {
+    "nome": "Arayashiki",
+    "habilidades": {
+      "nome_original": "Arayashiki",
+      "minimo": {
+        "habilidade": "1115",
+        "livros": 10
+      },
+      "media": {
+        "habilidade": "5115",
+        "livros": 20
+      },
+      "ideal": {
+        "habilidade": "5155",
+        "livros": 30
+      }
+    },
+    "cosmos": {
+      "central": [
+        "ELFO DE VENTO",
+        "CÉU E TERRA"
+      ],
+      "vermelho": [
+        "CÂNTICO DE DRAGÃO",
+        "ESPIRITO DA FUNDIÇÃO"
+      ],
+      "amarelo": [
+        "IMPRESSÃO ESPIRITUAL",
+        "A CRUZ"
+      ],
+      "azul": [
+        "MUNDO INFERIOR",
+        "COROA DE OURO"
+      ]
+    }
+  },
+  {
+    "nome": "Ártemis",
+    "habilidades": {
+      "nome_original": "Ártemis",
+      "minimo": {
+        "habilidade": "1515",
+        "livros": 20
+      },
+      "media": {
+        "habilidade": "5515",
+        "livros": 30
+      },
+      "ideal": {
+        "habilidade": "5535",
+        "livros": 33
+      }
+    },
+    "cosmos": {
+      "central": [
+        "CÉU E TERRA",
+        "ELFO DE SANGUE"
+      ],
+      "vermelho": [
+        "CÂNTIGO DO DRAGÃO",
+        "ESPIRITO DA FUNDIÇÃO"
+      ],
+      "amarelo": [
+        "FOLHA DE JADE",
+        "RUNA DO DESTINO",
+        "A CRUZ"
+      ],
+      "azul": [
+        "LUA NOVA",
+        "MUNDO INFERIOR"
+      ]
+    }
+  },
+  {
+    "nome": "Asmita",
+    "habilidades": {
+      "nome_original": "Asmita",
+      "minimo": {
+        "habilidade": "1513",
+        "livros": 13
+      },
+      "media": {
+        "habilidade": "1533",
+        "livros": 16
+      },
+      "ideal": {
+        "habilidade": "1555",
+        "livros": 30
+      }
+    },
+    "cosmos": {
+      "central": [
+        "MANDALA",
+        "CHAMA ETERNA",
+        "MAÇA DOURADA",
+        "ÂMBAR"
+      ],
+      "vermelho": [
+        "ANEL DE FLOR",
+        "CÁLICE"
+      ],
+      "amarelo": [
+        "JADE BORBOLETA",
+        "JADEÍTE"
+      ],
+      "azul": [
+        "ÁGUIA ESCARLATE",
+        "LÓTUS"
+      ]
+    }
+  },
+  {
+    "nome": "Aspros",
+    "habilidades": {
+      "nome_original": "Aspros",
+      "minimo": {
+        "habilidade": "1413",
+        "livros": 9
+      },
+      "media": {
+        "habilidade": "1445",
+        "livros": 22
+      },
+      "ideal": {
+        "habilidade": "1555",
+        "livros": 30
+      }
+    },
+    "cosmos": {
+      "central": [
+        "ÍRIS",
+        "DESACELERADOR"
+      ],
+      "vermelho": [
+        "ANEL DE FLOR",
+        "CÁLICE"
+      ],
+      "amarelo": [
+        "JADE BORBOLETA",
+        "JADEITE"
+      ],
+      "azul": [
+        "LUA NOVA",
+        "ÁGUIA ESCARLATE"
+      ]
+    }
+  },
+  {
+    "nome": "Atena",
+    "habilidades": {
+      "nome_original": "Atena",
+      "minimo": {
+        "habilidade": "1235",
+        "livros": 14
+      },
+      "media": {
+        "habilidade": "1445",
+        "livros": 22
+      },
+      "ideal": {
+        "habilidade": "4545",
+        "livros": 32
+      }
+    },
+    "cosmos": {
+      "central": [
+        "DESACELERADOR",
+        "FADA DO PÂNTANO",
+        "IRIS"
+      ],
+      "vermelho": [
+        "ANEL DE FLOR",
+        "CÁLICE"
+      ],
+      "amarelo": [
+        "JADE BORBOLETA",
+        "RUNA DO DESTINO",
+        "JADEITE",
+        "BORBOLETA ONIRÍCA"
+      ],
+      "azul": [
+        "BEIJA-FLOR",
+        "LUA-NOVA"
+      ]
+    }
+  },
+  {
+    "nome": "Cagaho",
+    "habilidades": {
+      "nome_original": "Cagaho",
+      "minimo": {
+        "habilidade": "3453",
+        "livros": 22
+      },
+      "media": {
+        "habilidade": "5453",
+        "livros": 29
+      },
+      "ideal": {
+        "habilidade": "5455",
+        "livros": 36
+      }
+    },
+    "cosmos": {
+      "central": [
+        "CÉU E TERRA",
+        "ELDO DE VENTO",
+        "FÚCSIA"
+      ],
+      "vermelho": [
+        "ESPIRITO DA FUNDIÇÃO",
+        "CÂNTICO DE DRAGÃO"
+      ],
+      "amarelo": [
+        "A CRUZ",
+        "IMPRESSÃO ESPIRITUAL",
+        "GLÓRIA MATINAL"
+      ],
+      "azul": [
+        "COROA DE OURO",
+        "MUNDO INFERIOR"
+      ]
+    }
+  },
+  {
+    "nome": "Caim de Gêmeos",
+    "habilidades": {
+      "nome_original": "Caim de Gêmeos",
+      "minimo": {
+        "habilidade": "4335",
+        "livros": 22
+      },
+      "media": {
+        "habilidade": "5335",
+        "livros": 26
+      },
+      "ideal": {
+        "habilidade": "5355",
+        "livros": 33
+      }
+    },
+    "cosmos": {
+      "central": [
+        "FÚCSIA",
+        "MAÇA DOURADA",
+        "DENTE DE DRAGÃO"
+      ],
+      "vermelho": [
+        "NÉVOA BRANCA",
+        "CÂNTIGO DO DRAGÃO",
+        "ESPIRITO DA FUNDIÇÃO"
+      ],
+      "amarelo": [
+        "GLÓRIA MATINAL",
+        "A CRUZ",
+        "IMPRESSÃO ESPITIRUAL"
+      ],
+      "azul": [
+        "FRUTO DA DISCÓRDIA",
+        "MUNDO INFERIOR",
+        "FOLHA CONGELADA"
+      ]
+    }
+  },
+  {
+    "nome": "Camus",
+    "habilidades": {
+      "nome_original": "Camus",
+      "minimo": {
+        "habilidade": "1123",
+        "livros": 4
+      },
+      "media": {
+        "habilidade": "1153",
+        "livros": 12
+      },
+      "ideal": {
+        "habilidade": "1553",
+        "livros": 23
+      }
+    },
+    "cosmos": {
+      "central": [
+        "FÚCSIA",
+        "DENTE DE DRAGÃO"
+      ],
+      "vermelho": [
+        "ROSÁRIO",
+        "NÉVOA BRANCA"
+      ],
+      "amarelo": [
+        "SEIYA"
+      ],
+      "azul": [
+        "FRUTO DA DISCÓRDIA",
+        "ÁGUIA ESCARLATE"
+      ]
+    }
+  },
+  {
+    "nome": "Camus Divino",
+    "habilidades": {
+      "nome_original": "Camus Divino",
+      "minimo": {
+        "habilidade": "1154",
+        "livros": 16
+      },
+      "media": {
+        "habilidade": "1354",
+        "livros": 19
+      },
+      "ideal": {
+        "habilidade": "3355",
+        "livros": 26
+      }
+    },
+    "cosmos": {
+      "central": [
+        "FÚCSIA",
+        "DENTE DE DRAGÃO",
+        "VÍBORA DE CHIFRES"
+      ],
+      "vermelho": [
+        "CÂNTIGO DO DRAGÃO",
+        "ESPIRITO DA FUNDIÇÃO"
+      ],
+      "amarelo": [
+        "SEIYA",
+        "DENTE-DE-LEÃO VOADOR",
+        "A CRUZ",
+        "IMPRESSÃO ESPIRITUAL"
+      ],
+      "azul": [
+        "MUNDO INFERIOR",
+        "CARTA",
+        "FOLHA CONGELADA"
+      ]
+    }
+  },
+  {
+    "nome": "Camus Sapuris",
+    "habilidades": {
+      "nome_original": "Camus Sapuris",
+      "minimo": {
+        "habilidade": "1151",
+        "livros": 10
+      },
+      "media": {
+        "habilidade": "1353",
+        "livros": 16
+      },
+      "ideal": {
+        "habilidade": "1555",
+        "livros": 30
+      }
+    },
+    "cosmos": {
+      "central": [
+        "JACINTO",
+        "FÚCSIA",
+        "DENTE DE DRAGÃO",
+        "ELFO DE SANGUE"
+      ],
+      "vermelho": [
+        "NÉVOA BRANCA",
+        "CÂNTICO DE DRAGÃO",
+        "ESPIRITO DA FUNDIÇÃO"
+      ],
+      "amarelo": [
+        "GLÓRIA MATINAL",
+        "SEIYA",
+        "LICHIA GELADA",
+        "JADE BORBOLETA"
+      ],
+      "azul": [
+        "ÁGUIA ESCARLATE",
+        "FOLHA CONGELADA",
+        "FRUTO DA DISCÓRDIA"
+      ]
+    }
+  },
+  {
+    "nome": "Caronte",
+    "habilidades": {
+      "nome_original": "Caronte",
+      "minimo": {
+        "habilidade": "1414",
+        "livros": 12
+      },
+      "media": {
+        "habilidade": "1534",
+        "livros": 19
+      },
+      "ideal": {
+        "habilidade": "1545",
+        "livros": 26
+      }
+    },
+    "cosmos": {
+      "central": [
+        "VÍBORA DE CHIFRES",
+        "ELFO DE SANGUE",
+        "CÉU E TERRA"
+      ],
+      "vermelho": [
+        "GALHOS",
+        "BAROQUE"
+      ],
+      "amarelo": [
+        "IMPRESSÃO ESPIRITUAL",
+        "A CRUZ",
+        "LICHIA GELADA",
+        "GLÓRIA MATINAL"
+      ],
+      "azul": [
+        "PÉROLAS DE NAGA",
+        "SONHO BOM"
+      ]
+    }
+  },
+  {
+    "nome": "Comandante Pandora",
+    "habilidades": {
+      "nome_original": "Comandante Pandora",
+      "minimo": {
+        "habilidade": "1512",
+        "livros": 11
+      },
+      "media": {
+        "habilidade": "1533",
+        "livros": 16
+      },
+      "ideal": {
+        "habilidade": "1555",
+        "livros": 30
+      }
+    },
+    "cosmos": {
+      "central": [
+        "MIRRA",
+        "MANDALA",
+        "ÍRIS"
+      ],
+      "vermelho": [
+        "CÁLICE",
+        "ANEL DE FLOR"
+      ],
+      "amarelo": [
+        "JADE BORBOLETA",
+        "RUNA DO DESTINO",
+        "JADEÍTE",
+        "BORBOLETA ONIRÍCA"
+      ],
+      "azul": [
+        "LUA NOVA"
+      ]
+    }
+  },
+  {
+    "nome": "Deathtoll",
+    "habilidades": {
+      "nome_original": "Deathtoll",
+      "minimo": {
+        "habilidade": "1512",
+        "livros": 11
+      },
+      "media": {
+        "habilidade": "1515",
+        "livros": 20
+      },
+      "ideal": {
+        "habilidade": "1555",
+        "livros": 30
+      }
+    },
+    "cosmos": {
+      "central": [
+        "ELFO DE SANGUE",
+        "DESACELERADOR"
+      ],
+      "vermelho": [
+        "ANEL DE FLOR",
+        "CÁLICE",
+        "NÉVOA BRANCA",
+        "GALHOS"
+      ],
+      "amarelo": [
+        "JADEÍTE",
+        "JADE BORBOLETA",
+        "A CRUZ",
+        "IMPRESSÃO ESPIRITUAL"
+      ],
+      "azul": [
+        "LUA NOVA",
+        "PÉROLA DE NAGAS",
+        "FRUTO DA DISCÓRDIA"
+      ]
+    }
+  },
+  {
+    "nome": "Defteros",
+    "habilidades": {
+      "nome_original": "Defteros",
+      "minimo": {
+        "habilidade": "1142",
+        "livros": 7
+      },
+      "media": {
+        "habilidade": "1343",
+        "livros": 12
+      },
+      "ideal": {
+        "habilidade": "1545",
+        "livros": 26
+      }
+    },
+    "cosmos": {
+      "central": [
+        "VÍBORA DE CHIFRES",
+        "DESACELERADOR",
+        "ÍRIS",
+        "CÉU E TERRA"
+      ],
+      "vermelho": [
+        "VOLTADO PARA O SOL",
+        "CÁLICE",
+        "ANEL DE FLOR",
+        "CÂNTIGO DO DRAGÃO"
+      ],
+      "amarelo": [
+        "IMPRESSÃO ESPIRITUAL",
+        "JADE BORBOLETA",
+        "RUNA DO DESTINO"
+      ],
+      "azul": [
+        "MUNDO INFERIOR",
+        "BEIJA-FLOR",
+        "LUA NOVA"
+      ]
+    }
+  },
+  {
+    "nome": "Dégel",
+    "habilidades": {
+      "nome_original": "Dégel",
+      "minimo": {
+        "habilidade": "1333",
+        "livros": 9
+      },
+      "media": {
+        "habilidade": "1353",
+        "livros": 16
+      },
+      "ideal": {
+        "habilidade": "1455",
+        "livros": 26
+      }
+    },
+    "cosmos": {
+      "central": [
+        "DENTE DE DRAGÃO",
+        "FÚCSIA"
+      ],
+      "vermelho": [
+        "NÉVOA BRANCA",
+        "CÂNTICO DE DRAGÃO"
+      ],
+      "amarelo": [
+        "LICHIA GELADA",
+        "SEIYA"
+      ],
+      "azul": [
+        "ÁGUIA ESCARLATE",
+        "FOLHA CONGELADA"
+      ]
+    }
+  },
+  {
+    "nome": "Dohko",
+    "habilidades": {
+      "nome_original": "Dohko",
+      "minimo": {
+        "habilidade": "1354",
+        "livros": 19
+      },
+      "media": {
+        "habilidade": "4454",
+        "livros": 28
+      },
+      "ideal": {
+        "habilidade": "4554",
+        "livros": 32
+      }
+    },
+    "cosmos": {
+      "central": [
+        "ÍRIS",
+        "FADA DO PÂNTANO",
+        "JACINTO",
+        "ELFO DE SANGUE"
+      ],
+      "vermelho": [
+        "ANEL DE FLOR",
+        "CÁLICE",
+        "GALHOS",
+        "PEDRA F."
+      ],
+      "amarelo": [
+        "FOLHA DE JADE",
+        "RUNA DO DESTINO",
+        "A CRUZ",
+        "IMPRESSÃO ESPIRITUAL"
+      ],
+      "azul": [
+        "LUA NOVA",
+        "PÉROLA DE NAGAS"
+      ]
+    }
+  },
+  {
+    "nome": "Dohko Divino",
+    "habilidades": {
+      "nome_original": "Dohko Divino",
+      "minimo": {
+        "habilidade": "1354",
+        "livros": 19
+      },
+      "media": {
+        "habilidade": "4454",
+        "livros": 28
+      },
+      "ideal": {
+        "habilidade": "4554",
+        "livros": 32
+      }
+    },
+    "cosmos": {
+      "central": [
+        "ÍRIS",
+        "FADA DO PÂNTANO",
+        "ELFO DE SANGUE"
+      ],
+      "vermelho": [
+        "ANEL DE FLOR",
+        "CÁLICE",
+        "GALHOS",
+        "PEDRA F."
+      ],
+      "amarelo": [
+        "FOLHA DE JADE",
+        "RUNA DO DESTINO",
+        "A CRUZ",
+        "IMPRESSÃO ESPIRITUAL"
+      ],
+      "azul": [
+        "LUA NOVA",
+        "PÉROLAS DE NAGA"
+      ]
+    }
+  },
+  {
+    "nome": "El Cid",
+    "habilidades": {
+      "nome_original": "El Cid",
+      "minimo": {
+        "habilidade": "5344",
+        "livros": 25
+      },
+      "media": {
+        "habilidade": "5355",
+        "livros": 33
+      },
+      "ideal": {
+        "habilidade": "5555",
+        "livros": 40
+      }
+    },
+    "cosmos": {
+      "central": [
+        "VÍBORA DE CHIFRES",
+        "QUIMERA"
+      ],
+      "vermelho": [
+        "PEDRA F.",
+        "GALHOS"
+      ],
+      "amarelo": [
+        "SABENDO",
+        "LICHIA GELADA",
+        "GLÓRIA MATINAL"
+      ],
+      "azul": [
+        "LÓTUS",
+        "PÉROLA DE NAGAS",
+        "CRISTAL DE FOGO"
+      ]
+    }
+  },
+  {
+    "nome": "Exclamação de Atena",
+    "habilidades": {
+      "nome_original": "Exclamação de Atena",
+      "minimo": {
+        "habilidade": "3413",
+        "livros": 12
+      },
+      "media": {
+        "habilidade": "4513",
+        "livros": 19
+      },
+      "ideal": {
+        "habilidade": "5533",
+        "livros": 26
+      }
+    },
+    "cosmos": {
+      "central": [
+        "CÉU E TERRA",
+        "CORRENTE DE HEFESTO",
+        "NARCISO",
+        "VÍUVA NEGRA"
+      ],
+      "vermelho": [
+        "GALHOS",
+        "BAROQUE"
+      ],
+      "amarelo": [
+        "IMPRESSÃO ESPIRITUAL",
+        "A CRUZ"
+      ],
+      "azul": [
+        "PÉROLAS DE NAGA",
+        "LÓTUS"
+      ]
+    }
+  },
+  {
+    "nome": "Exclamação de Atena Sapuri",
+    "habilidades": {
+      "nome_original": "Exclamação de Atena Sapuri",
+      "minimo": {
+        "habilidade": "1445",
+        "livros": 22
+      },
+      "media": {
+        "habilidade": "1455",
+        "livros": 26
+      },
+      "ideal": {
+        "habilidade": "4555",
+        "livros": 36
+      }
+    },
+    "cosmos": {
+      "central": [
+        "CÉU E TERRA",
+        "ELFO DE SANGUE"
+      ],
+      "vermelho": [
+        "ESPIRITO DA FUNDIÇÃO",
+        "CÂNTICO DE DRAGÃO"
+      ],
+      "amarelo": [
+        "LICHIA GELADA",
+        "GLÓRIA MATINAL"
+      ],
+      "azul": [
+        "COROA DE OURO",
+        "MUNDO INFERIOR"
+      ]
+    }
+  },
+  {
+    "nome": "Faraó",
+    "habilidades": {
+      "nome_original": "Faraó",
+      "minimo": {
+        "habilidade": "1125",
+        "livros": 11
+      },
+      "media": {
+        "habilidade": "1345",
+        "livros": 19
+      },
+      "ideal": {
+        "habilidade": "3455",
+        "livros": 29
+      }
+    },
+    "cosmos": {
+      "central": [
+        "FÚCSIA",
+        "FADA DO PÂNTANO",
+        "FLOR DO EQUINÓCIO"
+      ],
+      "vermelho": [
+        "NÉVOA BRANCA",
+        "CÂNTICO DE DRAGÃO"
+      ],
+      "amarelo": [
+        "GLÓRIA MATINAL",
+        "A CRUZ",
+        "IMPRESSÃO ESPIRITUAL"
+      ],
+      "azul": [
+        "LUA NOVA",
+        "GARDÊNIA",
+        "MUNDO INFERIOR"
+      ]
+    }
+  },
+  {
+    "nome": "Gestalt",
+    "habilidades": {
+      "nome_original": "Gestalt",
+      "minimo": {
+        "habilidade": "1354",
+        "livros": 19
+      },
+      "media": {
+        "habilidade": "1554",
+        "livros": 26
+      },
+      "ideal": {
+        "habilidade": "1555",
+        "livros": 30
+      }
+    },
+    "cosmos": {
+      "central": [
+        "VÍBORA DE CHIFRES",
+        "CÉU E TERRA",
+        "ELFO DE SANGUE"
+      ],
+      "vermelho": [
+        "GALHOS",
+        "BAROQUE"
+      ],
+      "amarelo": [
+        "LICHIA GELADA",
+        "GLÓRIA MATINAL",
+        "RESSONÂNCIA SAGRADA",
+        "IMPRESSÃO ESPIRITUAL"
+      ],
+      "azul": [
+        "PÉROLA DE NAGAS"
+      ]
+    }
+  },
+  {
+    "nome": "Grande Mestre",
+    "habilidades": {
+      "nome_original": "Grande Mestre",
+      "minimo": {
+        "habilidade": "1312",
+        "livros": 4
+      },
+      "media": {
+        "habilidade": "1512",
+        "livros": 11
+      },
+      "ideal": {
+        "habilidade": "1525",
+        "livros": 20
+      }
+    },
+    "cosmos": {
+      "central": [
+        "MANDALA",
+        "DENTE DE DRAGÃO"
+      ],
+      "vermelho": [
+        "CÁLICE",
+        "ANEL DE FLOR"
+      ],
+      "amarelo": [
+        "JADE BORBOLETA",
+        "RUNA DO DESTINO",
+        "JADEÍTE",
+        "BORBOLETA ONIRÍCA"
+      ],
+      "azul": [
+        "LUA NOVA"
+      ]
+    }
+  },
+  {
+    "nome": "Hades",
+    "habilidades": {
+      "nome_original": "Hades",
+      "minimo": {
+        "habilidade": "1413",
+        "livros": 18
+      },
+      "media": {
+        "habilidade": "1525",
+        "livros": 21
+      },
+      "ideal": {
+        "habilidade": "4545",
+        "livros": 32
+      }
+    },
+    "cosmos": {
+      "central": [
+        "DENTE DE DRAGÃO",
+        "ÁRVORE DA RESSURREIÇÃO"
+      ],
+      "vermelho": [
+        "ROSÁRIO",
+        "CÂNTIGO DO DRAGÃO"
+      ],
+      "amarelo": [
+        "SABENDO",
+        "GLÓRIA MATINAL",
+        "A CRUZ",
+        "IMPRESSÃO ESPIRITUAL"
+      ],
+      "azul": [
+        "BEIJA-FLOR",
+        "MUNDO INFERIOR"
+      ]
+    }
+  },
+  {
+    "nome": "Hasgard",
+    "habilidades": {
+      "nome_original": "Hasgard",
+      "minimo": {
+        "habilidade": "1155",
+        "livros": 20
+      },
+      "media": {
+        "habilidade": "3355",
+        "livros": 26
+      },
+      "ideal": {
+        "habilidade": "3555",
+        "livros": 33
+      }
+    },
+    "cosmos": {
+      "central": [
+        "ELFO DE  SANGUE",
+        "JACINTO",
+        "FÚSCIA",
+        "ÂMBAR"
+      ],
+      "vermelho": [
+        "NÉVOA BRANCA",
+        "GALHOS",
+        "BAROQUE"
+      ],
+      "amarelo": [
+        "LICHIA GELADA",
+        "GLÓRIA MATINAL",
+        "DOURO",
+        "IMPRESSÃO ESPIRITUAL"
+      ],
+      "azul": [
+        "FRUTO DA DISCÓRDIA",
+        "PÉROLAS DE NAGA"
+      ]
+    }
+  },
+  {
+    "nome": "Hasgard",
+    "habilidades": {
+      "nome_original": "Hasgard",
+      "minimo": {
+        "habilidade": "1155",
+        "livros": 20
+      },
+      "media": {
+        "habilidade": "3355",
+        "livros": 26
+      },
+      "ideal": {
+        "habilidade": "3555",
+        "livros": 33
+      }
+    },
+    "cosmos": {
+      "central": [
+        "ELFO DE  SANGUE",
+        "JACINTO",
+        "FÚSCIA",
+        "ÂMBAR"
+      ],
+      "vermelho": [
+        "NÉVOA BRANCA",
+        "GALHOS",
+        "BAROQUE"
+      ],
+      "amarelo": [
+        "LICHIA GELADA",
+        "GLÓRIA MATINAL",
+        "DOURO",
+        "IMPRESSÃO ESPIRITUAL"
+      ],
+      "azul": [
+        "FRUTO DA DISCÓRDIA",
+        "PÉROLAS DE NAGA"
+      ]
+    }
+  },
+  {
+    "nome": "Hyoga Divino",
+    "habilidades": {
+      "nome_original": "Hyoga Divino",
+      "minimo": {
+        "habilidade": "2121",
+        "livros": 2
+      },
+      "media": {
+        "habilidade": "2151",
+        "livros": 11
+      },
+      "ideal": {
+        "habilidade": "4154",
+        "livros": 22
+      }
+    },
+    "cosmos": {
+      "central": [
+        "MANDALA",
+        "DESACELERADOR",
+        "ÍRIS"
+      ],
+      "vermelho": [
+        "ANEL DE FLOR",
+        "CÁLICE"
+      ],
+      "amarelo": [
+        "JADE BORBOLETA",
+        "RUNA DO DESTINO",
+        "JADEÍTE",
+        "BORBOLETA ONIRÍCA"
+      ],
+      "azul": [
+        "ÁGUIA ESCARLATE",
+        "LUA NOVA"
+      ]
+    }
+  },
+  {
+    "nome": "Hyoga Dourado",
+    "habilidades": {
+      "nome_original": "Hyoga Dourado",
+      "minimo": {
+        "habilidade": "1313",
+        "livros": 6
+      },
+      "media": {
+        "habilidade": "1515",
+        "livros": 20
+      },
+      "ideal": {
+        "habilidade": "1555",
+        "livros": 30
+      }
+    },
+    "cosmos": {
+      "central": [
+        "MIRRA",
+        "MANDALA",
+        "ÍRIS",
+        "FADA DO PÂNTANO"
+      ],
+      "vermelho": [
+        "ANEL DE FLOR",
+        "CÁLICE"
+      ],
+      "amarelo": [
+        "JADE BORBOLETA",
+        "RUNA DO DESTINO",
+        "JADEÍTE",
+        "BORBOLETA ONIRÍCA"
+      ],
+      "azul": [
+        "LUA NOVA"
+      ]
+    }
+  },
+  {
+    "nome": "Hypnos",
+    "habilidades": {
+      "nome_original": "Hypnos",
+      "minimo": {
+        "habilidade": "1154",
+        "livros": 16
+      },
+      "media": {
+        "habilidade": "1255",
+        "livros": 21
+      },
+      "ideal": {
+        "habilidade": "3555",
+        "livros": 33
+      }
+    },
+    "cosmos": {
+      "central": [
+        "LOUREIRO",
+        "ELFO DE SANGUE",
+        "DESACELERADOR",
+        "VÍBORA DE CHIFRES"
+      ],
+      "vermelho": [
+        "BAROQUE",
+        "GALHOS"
+      ],
+      "amarelo": [
+        "JADE BORBOLETA",
+        "IMPRESSÃO ESPIRITUAL"
+      ],
+      "azul": [
+        "LUA NOVA",
+        "PÉROLAS DE NAGA"
+      ]
+    }
+  },
+  {
+    "nome": "Ikki Divino",
+    "habilidades": {
+      "nome_original": "Ikki Divino",
+      "minimo": {
+        "habilidade": "1215",
+        "livros": 11
+      },
+      "media": {
+        "habilidade": "1415",
+        "livros": 16
+      },
+      "ideal": {
+        "habilidade": "1555",
+        "livros": 30
+      }
+    },
+    "cosmos": {
+      "central": [
+        "VIUVA NEGRA",
+        "VÍBORA DE CHIFRES",
+        "ELFO DE SANGUE"
+      ],
+      "vermelho": [
+        "CÂNTIGO DO DRAGÃO"
+      ],
+      "amarelo": [
+        "GLÓRIA MATINAL",
+        "IMPRESSÃO ESPITIRUAL"
+      ],
+      "azul": [
+        "BEIJA-FLOR",
+        "MUNDO INFERIOR"
+      ]
+    }
+  },
+  {
+    "nome": "Izo",
+    "habilidades": {
+      "nome_original": "Izo",
+      "minimo": {
+        "habilidade": "1433",
+        "livros": 12
+      },
+      "media": {
+        "habilidade": "1455",
+        "livros": 26
+      },
+      "ideal": {
+        "habilidade": "1555",
+        "livros": 30
+      }
+    },
+    "cosmos": {
+      "central": [
+        "ELFO DE SANGUE",
+        "CÉU E TERRA"
+      ],
+      "vermelho": [
+        "GALHOS",
+        "BAROQUE"
+      ],
+      "amarelo": [
+        "LICHIA GELADA",
+        "GLÓRIA MATINAL"
+      ],
+      "azul": [
+        "PÉROLAS DE NAGA",
+        "SONHO BOM"
+      ]
+    }
+  },
+  {
+    "nome": "Kaiser de Leão",
+    "habilidades": {
+      "nome_original": "Kaiser de Leão",
+      "minimo": {
+        "habilidade": "1334",
+        "livros": 12
+      },
+      "media": {
+        "habilidade": "4344",
+        "livros": 21
+      },
+      "ideal": {
+        "habilidade": "4355",
+        "livros": 29
+      }
+    },
+    "cosmos": {
+      "central": [
+        "FLOR DO EQUINÓCIO",
+        "QUIMERA"
+      ],
+      "vermelho": [
+        "GALHOS",
+        "BAROQUE"
+      ],
+      "amarelo": [
+        "IMPRESSÃO ESPIRITUAL",
+        "A CRUZ",
+        "GLÓRIA MATINAL"
+      ],
+      "azul": [
+        "PÉROLAS DE NAGA"
+      ]
+    }
+  },
+  {
+    "nome": "Kanon de Dragão M.",
+    "habilidades": {
+      "nome_original": "Kanon de Dragão M.",
+      "minimo": {
+        "habilidade": "1221",
+        "livros": 2
+      },
+      "media": {
+        "habilidade": "1441",
+        "livros": 12
+      },
+      "ideal": {
+        "habilidade": "1551",
+        "livros": 20
+      }
+    },
+    "cosmos": {
+      "central": [
+        "ÍRIS",
+        "FÚCSIA",
+        "DENTE DE DRAGÃO"
+      ],
+      "vermelho": [
+        "ANEL DE FLOR",
+        "CÁLICE",
+        "NÉVOA BRANCA"
+      ],
+      "amarelo": [
+        "A CRUZ",
+        "RUNA DO DESTINO",
+        "IMPRESSÃO ESPITIRUAL"
+      ],
+      "azul": [
+        "BEIJA-FLOR",
+        "FRUTO DA DISCÓRDIA",
+        "LUA NOVA"
+      ]
+    }
+  },
+  {
+    "nome": "Kanon de Gêmeos",
+    "habilidades": {
+      "nome_original": "Kanon de Gêmeos",
+      "minimo": {
+        "habilidade": "1455",
+        "livros": 26
+      },
+      "media": {
+        "habilidade": "5455",
+        "livros": 36
+      },
+      "ideal": {
+        "habilidade": "5555",
+        "livros": 40
+      }
+    },
+    "cosmos": {
+      "central": [
+        "DESACELERADOR",
+        "FLOR DE EQUINÓCIO"
+      ],
+      "vermelho": [
+        "PEDRA C.",
+        "CÂNTIGO DO DRAGÃO",
+        "ROSÁRIO"
+      ],
+      "amarelo": [
+        "JADE BORBOLETA",
+        "RUNA DO DESTINO",
+        "JADEÍTE",
+        "BORBOLETA ONIRÍCA"
+      ],
+      "azul": [
+        "MUNDO INFERIOR",
+        "BEIJA-FLOR",
+        "LUA NOVA"
+      ]
+    }
+  },
+  {
+    "nome": "Kardia",
+    "habilidades": {
+      "nome_original": "Kardia",
+      "minimo": {
+        "habilidade": "1333",
+        "livros": 9
+      },
+      "media": {
+        "habilidade": "1554",
+        "livros": 26
+      },
+      "ideal": {
+        "habilidade": "1555",
+        "livros": 30
+      }
+    },
+    "cosmos": {
+      "central": [
+        "JACINTO",
+        "VÍBORA DE CHIFRES",
+        "CÉU E TERRA"
+      ],
+      "vermelho": [
+        "PEDRA F.",
+        "GALHOS"
+      ],
+      "amarelo": [
+        "GLÓRIA MATINAL",
+        "A CRUZ",
+        "IMPRESSÃO ESPIRITUAL"
+      ],
+      "azul": [
+        "PÉROLAS DE NAGA"
+      ]
+    }
+  },
+  {
+    "nome": "Krest",
+    "habilidades": {
+      "nome_original": "Krest",
+      "minimo": {
+        "habilidade": "1135",
+        "livros": 13
+      },
+      "media": {
+        "habilidade": "1155",
+        "livros": 20
+      },
+      "ideal": {
+        "habilidade": "1455",
+        "livros": 26
+      }
+    },
+    "cosmos": {
+      "central": [
+        "ELFO DE SANGUE",
+        "JACINTO"
+      ],
+      "vermelho": [
+        "CÂNTICO DE DRAGÃO",
+        "DANO DE METEORO"
+      ],
+      "amarelo": [
+        "LICHIA GELADA",
+        "FOLHA DE JADE"
+      ],
+      "azul": [
+        "MUNDO INFERIOR",
+        "COROA DE OURO"
+      ]
+    }
+  },
+  {
+    "nome": "Krishna",
+    "habilidades": {
+      "nome_original": "Krishna",
+      "minimo": {
+        "habilidade": "1215",
+        "livros": 11
+      },
+      "media": {
+        "habilidade": "1335",
+        "livros": 16
+      },
+      "ideal": {
+        "habilidade": "1555",
+        "livros": 30
+      }
+    },
+    "cosmos": {
+      "central": [
+        "JACINTO",
+        "MIRRA",
+        "ÍRIS"
+      ],
+      "vermelho": [
+        "CÁLICE",
+        "ANEL DE FLOR"
+      ],
+      "amarelo": [
+        "RUNA DO DESTINO",
+        "JADE BORBOLETA",
+        "JADEÍTE",
+        "BORBOLETA ONIRÍCA"
+      ],
+      "azul": [
+        "LUA NOVA"
+      ]
+    }
+  },
+  {
+    "nome": "Lune de Balron",
+    "habilidades": {
+      "nome_original": "Lune de Balron",
+      "minimo": {
+        "habilidade": "2215",
+        "livros": 12
+      },
+      "media": {
+        "habilidade": "4415",
+        "livros": 22
+      },
+      "ideal": {
+        "habilidade": "4545",
+        "livros": 32
+      }
+    },
+    "cosmos": {
+      "central": [
+        "ELFO DE VENTO",
+        "CHAMA ETERNA",
+        "LIVRO DOS MORTOS"
+      ],
+      "vermelho": [
+        "NÉVOA BRANCA",
+        "CÂNTICO DE DRAGÃO"
+      ],
+      "amarelo": [
+        "A CRUZ",
+        "GLÓRIA MATINAL",
+        "IMPRESSÃO ESPIRITUAL"
+      ],
+      "azul": [
+        "BEIJA-FLOR",
+        "MUNDO INFERIOR"
+      ]
+    }
+  },
+  {
+    "nome": "Manigold",
+    "habilidades": {
+      "nome_original": "Manigold",
+      "minimo": {
+        "habilidade": "1435",
+        "livros": 19
+      },
+      "media": {
+        "habilidade": "1455",
+        "livros": 26
+      },
+      "ideal": {
+        "habilidade": "1555",
+        "livros": 30
+      }
+    },
+    "cosmos": {
+      "central": [
+        "DENTE DE DRAGÃO",
+        "ESCARAVELHO",
+        "FÚCSIA",
+        "MAÇA DOURADA"
+      ],
+      "vermelho": [
+        "CÂNTIGO DO DRAGÃO",
+        "TEBAS",
+        "NÉVOA BRANCA"
+      ],
+      "amarelo": [
+        "GLÓRIA MATINAL",
+        "DOURO",
+        "IMPRESSÃO ESPIRITUAL",
+        "A CRUZ"
+      ],
+      "azul": [
+        "MUNDO INFERIOR",
+        "CARVALHO DE DRAGÃO",
+        "FRUTO DA DISCÓRDIA"
+      ]
+    }
+  },
+  {
+    "nome": "Marechal Pandora",
+    "habilidades": {
+      "nome_original": "Marechal Pandora",
+      "minimo": {
+        "habilidade": "3453",
+        "livros": 22
+      },
+      "media": {
+        "habilidade": "3553",
+        "livros": 26
+      },
+      "ideal": {
+        "habilidade": "5554",
+        "livros": 36
+      }
+    },
+    "cosmos": {
+      "central": [
+        "FELINA",
+        "FADA DO PÂNTANO",
+        "ESCARAVELHO",
+        "DENTE DE DRAGÃO"
+      ],
+      "vermelho": [
+        "TEBAS",
+        "CÂNTIGO DO DRAGÃO",
+        "NÉVOA BRANCA"
+      ],
+      "amarelo": [
+        "RESSONÂNCIA SAGRADA",
+        "GLÓRIA MATINAL",
+        "A CRUZ",
+        "IMPRESSÃO ESPIRITUAL"
+      ],
+      "azul": [
+        "GÂRDENIA",
+        "FRUTO DA DISCÓRDIA",
+        "MUNDO INFERIOR"
+      ]
+    }
+  },
+  {
+    "nome": "Máscara da Morte",
+    "habilidades": {
+      "nome_original": "Máscara da Morte",
+      "minimo": {
+        "habilidade": "1221",
+        "livros": 2
+      },
+      "media": {
+        "habilidade": "1521",
+        "livros": 11
+      },
+      "ideal": {
+        "habilidade": "1551",
+        "livros": 20
+      }
+    },
+    "cosmos": {
+      "central": [
+        "LIVRO DOS MORTOS"
+      ],
+      "vermelho": [
+        "CÂNTICO DE DRAGÃO",
+        "NÉVOA BRANCA"
+      ],
+      "amarelo": [
+        "A CRUZ",
+        "GLÓRIA MATINAL",
+        "IMPRESSÃO ESPIRITUAL"
+      ],
+      "azul": [
+        "MUNDO INFERIOR",
+        "LUA NOVA"
+      ]
+    }
+  },
+  {
+    "nome": "Máscara da Morte Divino",
+    "habilidades": {
+      "nome_original": "Máscara da Morte Divino",
+      "minimo": {
+        "habilidade": "1513",
+        "livros": 13
+      },
+      "media": {
+        "habilidade": "1515",
+        "livros": 20
+      },
+      "ideal": {
+        "habilidade": "4515",
+        "livros": 26
+      }
+    },
+    "cosmos": {
+      "central": [
+        "FÚCSIA",
+        "ÂMBAR"
+      ],
+      "vermelho": [
+        "NÉVOA BRANCA",
+        "ESPIRITO DA FUNDIÇÃO"
+      ],
+      "amarelo": [
+        "LICHIA GELADA",
+        "GLÓRIA MATINAL"
+      ],
+      "azul": [
+        "FRUTO DA DISCÓRDIA",
+        "MUNDO INFERIOR"
+      ]
+    }
+  },
+  {
+    "nome": "Máscara da Morte Sapuris",
+    "habilidades": {
+      "nome_original": "Máscara da Morte Sapuris",
+      "minimo": {
+        "habilidade": "1154",
+        "livros": 16
+      },
+      "media": {
+        "habilidade": "1155",
+        "livros": 20
+      },
+      "ideal": {
+        "habilidade": "1555",
+        "livros": 30
+      }
+    },
+    "cosmos": {
+      "central": [
+        "FÚCSIA",
+        "ÂMBAR"
+      ],
+      "vermelho": [
+        "NÉVOA BRANCA",
+        "ESPIRITO DA FUNDIÇÃO"
+      ],
+      "amarelo": [
+        "LICHIA GELADA",
+        "GLÓRIA MATINAL"
+      ],
+      "azul": [
+        "FRUTO DA DISCÓRDIA",
+        "MUNDO INFERIOR"
+      ]
+    }
+  },
+  {
+    "nome": "Mayura",
+    "habilidades": {
+      "nome_original": "Mayura",
+      "minimo": {
+        "habilidade": "1122",
+        "livros": 2
+      },
+      "media": {
+        "habilidade": "1155",
+        "livros": 20
+      },
+      "ideal": {
+        "habilidade": "1555",
+        "livros": 30
+      }
+    },
+    "cosmos": {
+      "central": [
+        "VÍBORA DE CHIFRES"
+      ],
+      "vermelho": [
+        "CÂNTIGO DO DRAGÃO"
+      ],
+      "amarelo": [
+        "GLÓRIA MATINAL",
+        "A CRUZ",
+        "IMPRESSÃO ESPIRITUAL"
+      ],
+      "azul": [
+        "BEIJA-FLOR",
+        "MUNDO INFERIOR"
+      ]
+    }
+  },
+  {
+    "nome": "Milo",
+    "habilidades": {
+      "nome_original": "Milo",
+      "minimo": {
+        "habilidade": "1115",
+        "livros": 10
+      },
+      "media": {
+        "habilidade": "5115",
+        "livros": 20
+      },
+      "ideal": {
+        "habilidade": "5155",
+        "livros": 30
+      }
+    },
+    "cosmos": {
+      "central": [
+        "FELINA"
+      ],
+      "vermelho": [
+        "VÍBORA",
+        "GALHOS"
+      ],
+      "amarelo": [
+        "GLÓRIA MATINAL",
+        "A CRUZ",
+        "IMPRESSÃO ESPIRITUAL"
+      ],
+      "azul": [
+        "CRISTAL DE FOGO",
+        "PÉROLAS DE NAGA"
+      ]
+    }
+  },
+  {
+    "nome": "Milo Divino",
+    "habilidades": {
+      "nome_original": "Milo Divino",
+      "minimo": {
+        "habilidade": "4443",
+        "livros": 21
+      },
+      "media": {
+        "habilidade": "4554",
+        "livros": 32
+      },
+      "ideal": {
+        "habilidade": "5555",
+        "livros": 40
+      }
+    },
+    "cosmos": {
+      "central": [
+        "VÍBORA DE CHIFRES",
+        "QUIMERA",
+        "FELINA"
+      ],
+      "vermelho": [
+        "BAROQUE",
+        "GALHOS"
+      ],
+      "amarelo": [
+        "IMPRESSÃO ESPIRITUAL",
+        "A CRUZ"
+      ],
+      "azul": [
+        "PÉROLAS DE NAGA",
+        "CRISTAL DO FOGO"
+      ]
+    }
+  },
+  {
+    "nome": "Minos",
+    "habilidades": {
+      "nome_original": "Minos",
+      "minimo": {
+        "habilidade": "1421",
+        "livros": 7
+      },
+      "media": {
+        "habilidade": "1551",
+        "livros": 20
+      },
+      "ideal": {
+        "habilidade": "1555",
+        "livros": 30
+      }
+    },
+    "cosmos": {
+      "central": [
+        "DENTE DE DRAGÃO",
+        "FÚCSIA"
+      ],
+      "vermelho": [
+        "CÁLICE",
+        "CÂNTIGO DO DRAGÃO",
+        "ANEL DE FLOR"
+      ],
+      "amarelo": [
+        "A CRUZ",
+        "GLÓRIA MATINAL",
+        "SEIYA",
+        "IMPRESSÃO ESPIRITUAL"
+      ],
+      "azul": [
+        "LUA NOVA",
+        "ÁGUIA ESCARLATE"
+      ]
+    }
+  },
+  {
+    "nome": "Mu",
+    "habilidades": {
+      "nome_original": "Mu",
+      "minimo": {
+        "habilidade": "5111",
+        "livros": 10
+      },
+      "media": {
+        "habilidade": "5511",
+        "livros": 20
+      },
+      "ideal": {
+        "habilidade": "5533",
+        "livros": 26
+      }
+    },
+    "cosmos": {
+      "central": [
+        "DENTE DE DRAGÃO",
+        "ESCARAVELHO"
+      ],
+      "vermelho": [
+        "NÉVOA BRANCA",
+        "OLHO DE ÁGUIA"
+      ],
+      "amarelo": [
+        "A CRUZ",
+        "GLÓRIA MATINAL",
+        "IMPRESSÃO ESPIRITUAL"
+      ],
+      "azul": [
+        "MUNDO INFERIOR",
+        "LUA NOVA"
+      ]
+    }
+  },
+  {
+    "nome": "Mu Divino",
+    "habilidades": {
+      "nome_original": "Mu Divino",
+      "minimo": {
+        "habilidade": "1333",
+        "livros": 9
+      },
+      "media": {
+        "habilidade": "1455",
+        "livros": 26
+      },
+      "ideal": {
+        "habilidade": "1555",
+        "livros": 30
+      }
+    },
+    "cosmos": {
+      "central": [
+        "ELFO DE SANGUE",
+        "FÚCSIA",
+        "PÁSSARO-INCENDO"
+      ],
+      "vermelho": [
+        "OLHO DE ÁGUIA",
+        "TEBAS",
+        "ROSÁRIO"
+      ],
+      "amarelo": [
+        "DOURO",
+        "LICHIA GELADA"
+      ],
+      "azul": [
+        "GÂRDENIA",
+        "ÁGUIA ESCARLATE",
+        "BATALHA NAS SOMBRAS"
+      ]
+    }
+  },
+  {
+    "nome": "Myu de Papillon",
+    "habilidades": {
+      "nome_original": "Myu de Papillon",
+      "minimo": {
+        "habilidade": "3345",
+        "livros": 22
+      },
+      "media": {
+        "habilidade": "3545",
+        "livros": 29
+      },
+      "ideal": {
+        "habilidade": "4555",
+        "livros": 36
+      }
+    },
+    "cosmos": {
+      "central": [
+        "FÚCSIA",
+        "FELINA",
+        "VÍBORA DE CHIFRES"
+      ],
+      "vermelho": [
+        "CÂNTIGO DO DRAGÃO"
+      ],
+      "amarelo": [
+        "GLÓRIA MATINAL",
+        "A CRUZ",
+        "IMPRESSÃO ESPIRITUAL"
+      ],
+      "azul": [
+        "MUNDO INFERIOR"
+      ]
+    }
+  },
+  {
+    "nome": "Odisseu",
+    "habilidades": {
+      "nome_original": "Odisseu",
+      "minimo": {
+        "habilidade": "1521",
+        "livros": 11
+      },
+      "media": {
+        "habilidade": "1551",
+        "livros": 20
+      },
+      "ideal": {
+        "habilidade": "1555",
+        "livros": 30
+      }
+    },
+    "cosmos": {
+      "central": [
+        "MAÇA DOURADA",
+        "VISGO COMUM",
+        "CÉU E TERRA"
+      ],
+      "vermelho": [
+        "NÉVOA BRANCA",
+        "CÂNTIGO DO DRAGÃO"
+      ],
+      "amarelo": [
+        "IMPRESSÃO ESPIRITUAL",
+        "GLÓRIA MATINAL"
+      ],
+      "azul": [
+        "GÂRDENIA",
+        "BEIJA-FLOR"
+      ]
+    }
+  },
+  {
+    "nome": "Oneiros",
+    "habilidades": {
+      "nome_original": "Oneiros",
+      "minimo": {
+        "habilidade": "1343",
+        "livros": 12
+      },
+      "media": {
+        "habilidade": "1455",
+        "livros": 26
+      },
+      "ideal": {
+        "habilidade": "1555",
+        "livros": 30
+      }
+    },
+    "cosmos": {
+      "central": [
+        "FÚCSIA",
+        "VÍBORA DE CHIFRES"
+      ],
+      "vermelho": [
+        "GALHOS",
+        "BAROQUE"
+      ],
+      "amarelo": [
+        "GLÓRIA MATINAL",
+        "A CRUZ",
+        "IMPRESSÃO ESPIRITUAL"
+      ],
+      "azul": [
+        "PÉROLAS DE NAGA"
+      ]
+    }
+  },
+  {
+    "nome": "Orfeu",
+    "habilidades": {
+      "nome_original": "Orfeu",
+      "minimo": {
+        "habilidade": "1512",
+        "livros": 11
+      },
+      "media": {
+        "habilidade": "1515",
+        "livros": 20
+      },
+      "ideal": {
+        "habilidade": "4545",
+        "livros": 32
+      }
+    },
+    "cosmos": {
+      "central": [
+        "VÍBORA DE CHIFRES"
+      ],
+      "vermelho": [
+        "CÂNTIGO DO DRAGÃO"
+      ],
+      "amarelo": [
+        "GLÓRIA MATINAL",
+        "A CRUZ",
+        "IMPRESSÃO ESPITIRUAL"
+      ],
+      "azul": [
+        "MUNDO INFERIOR"
+      ]
+    }
+  },
+  {
+    "nome": "Pandora",
+    "habilidades": {
+      "nome_original": "Pandora",
+      "minimo": {
+        "habilidade": "1122",
+        "livros": 2
+      },
+      "media": {
+        "habilidade": "1144",
+        "livros": 12
+      },
+      "ideal": {
+        "habilidade": "4155",
+        "livros": 26
+      }
+    },
+    "cosmos": {
+      "central": [
+        "LOUREIRO",
+        "DENTE DE DRAGÃO",
+        "FÚCSIA"
+      ],
+      "vermelho": [
+        "NÉVOA BRANCA",
+        "PEDRA C."
+      ],
+      "amarelo": [
+        "GLÓRIA MATINAL",
+        "A CRUZ",
+        "IMPRESSÃO ESPIRITUAL"
+      ],
+      "azul": [
+        "FRUTO DA DISCÓRDIA",
+        "LIVRO DE CURA"
+      ]
+    }
+  },
+  {
+    "nome": "Partita",
+    "habilidades": {
+      "nome_original": "Partita",
+      "minimo": {
+        "habilidade": "4434",
+        "livros": 21
+      },
+      "media": {
+        "habilidade": "5435",
+        "livros": 29
+      },
+      "ideal": {
+        "habilidade": "5445",
+        "livros": 32
+      }
+    },
+    "cosmos": {
+      "central": [
+        "FÚCSIA",
+        "ESCARAVELHO",
+        "ÂMBAR",
+        "DENTE DE DRAGÃO"
+      ],
+      "vermelho": [
+        "NÉVOA BRANCA",
+        "BAROQUE",
+        "GALHOS"
+      ],
+      "amarelo": [
+        "GLÓRIA MATINAL",
+        "A CRUZ",
+        "IMPRESSÃO ESPIRITUAL"
+      ],
+      "azul": [
+        "FRUTO DA DISCÓRDIA",
+        "GÂRDENIA",
+        "PÉROLAS DE NAGA"
+      ]
+    }
+  },
+  {
+    "nome": "Perséfone",
+    "habilidades": {
+      "nome_original": "Perséfone",
+      "minimo": {
+        "habilidade": "3335",
+        "livros": 19
+      },
+      "media": {
+        "habilidade": "3355",
+        "livros": 26
+      },
+      "ideal": {
+        "habilidade": "5555",
+        "livros": 40
+      }
+    },
+    "cosmos": {
+      "central": [
+        "ESCARAVELHO",
+        "ÂMBAR",
+        "FÚCSIA"
+      ],
+      "vermelho": [
+        "OLHO DE ÁGUIA",
+        "NÉVOA BRANCA"
+      ],
+      "amarelo": [
+        "GLÓRIA MATINAL",
+        "SABENDO",
+        "DOURO"
+      ],
+      "azul": [
+        "MUNDO INFERIOR",
+        "GÂRDENIA",
+        "NÓ",
+        "FRUTO DA DISCÓRDIA"
+      ]
+    }
+  },
+  {
+    "nome": "Phantasos",
+    "habilidades": {
+      "nome_original": "Phantasos",
+      "minimo": {
+        "habilidade": "1315",
+        "livros": 13
+      },
+      "media": {
+        "habilidade": "1515",
+        "livros": 20
+      },
+      "ideal": {
+        "habilidade": "1555",
+        "livros": 30
+      }
+    },
+    "cosmos": {
+      "central": [
+        "CÉU E TERRA",
+        "FADA DO PÂNTANO"
+      ],
+      "vermelho": [
+        "NÉVOA BRANCA",
+        "CÁLICE"
+      ],
+      "amarelo": [
+        "LICHIA GELADA",
+        "IMPRESSÃO ESPIRITUAL"
+      ],
+      "azul": [
+        "FRUTO DA DISCÓRDIA",
+        "LUA-NOVA"
+      ]
+    }
+  },
+  {
+    "nome": "Poseidon",
+    "habilidades": {
+      "nome_original": "Poseidon",
+      "minimo": {
+        "habilidade": "1133",
+        "livros": 12
+      },
+      "media": {
+        "habilidade": "3335",
+        "livros": 19
+      },
+      "ideal": {
+        "habilidade": "4455",
+        "livros": 32
+      }
+    },
+    "cosmos": {
+      "central": [
+        "DESACELERADOR",
+        "ELDO DE VENTO",
+        "VÍBORA DE CHIFRES"
+      ],
+      "vermelho": [
+        "CÁLICE",
+        "CÂNTIGO DO DRAGÃO",
+        "ANEL DE FLOR"
+      ],
+      "amarelo": [
+        "IMPRESSÃO ESPIRITUAL",
+        "SEIYA",
+        "JADE BORBOLETA"
+      ],
+      "azul": [
+        "MUNDO INFERIOR",
+        "ÁGUIA ESCARLATE"
+      ]
+    }
+  },
+  {
+    "nome": "Radamanthys",
+    "habilidades": {
+      "nome_original": "Radamanthys",
+      "minimo": {
+        "habilidade": "1425",
+        "livros": 17
+      },
+      "media": {
+        "habilidade": "1445",
+        "livros": 22
+      },
+      "ideal": {
+        "habilidade": "1555",
+        "livros": 30
+      }
+    },
+    "cosmos": {
+      "central": [
+        "FÚCSIA",
+        "VÍBORA DE CHIFRES"
+      ],
+      "vermelho": [
+        "LANÇA CHAMA"
+      ],
+      "amarelo": [
+        "A CRUZ",
+        "GLÓRIA MATINAL",
+        "IMPRESSÃO ESPIRITUAL"
+      ],
+      "azul": [
+        "PÉROLAS DE NAGA"
+      ]
+    }
+  },
+  {
+    "nome": "Radamanthys Divino",
+    "habilidades": {
+      "nome_original": "Radamanthys Divino",
+      "minimo": {
+        "habilidade": "4443",
+        "livros": 21
+      },
+      "media": {
+        "habilidade": "5453",
+        "livros": 29
+      },
+      "ideal": {
+        "habilidade": "5553",
+        "livros": 33
+      }
+    },
+    "cosmos": {
+      "central": [
+        "VÍBORA DE CHIFRES",
+        "QUIMERA",
+        "FÚCSIA"
+      ],
+      "vermelho": [
+        "GALHOS",
+        "BAROQUE"
+      ],
+      "amarelo": [
+        "IMPRESSÃO ESPIRITUAL",
+        "A CRUZ"
+      ],
+      "azul": [
+        "PÉROLAS DE NAGA"
+      ]
+    }
+  },
+  {
+    "nome": "Rugonis",
+    "habilidades": {
+      "nome_original": "Rugonis",
+      "minimo": {
+        "habilidade": "1251",
+        "livros": 11
+      },
+      "media": {
+        "habilidade": "1551",
+        "livros": 20
+      },
+      "ideal": {
+        "habilidade": "3555",
+        "livros": 33
+      }
+    },
+    "cosmos": {
+      "central": [
+        "MANDALA",
+        "FÚCSIA"
+      ],
+      "vermelho": [
+        "ANEL DE FLOR",
+        "NÉVOA BRANCA"
+      ],
+      "amarelo": [
+        "LICHIA GELADA",
+        "JADE BORBOLETA"
+      ],
+      "azul": [
+        "LUA NOVA",
+        "ÁGUIA ESCARLATE"
+      ]
+    }
+  },
+  {
+    "nome": "Saga",
+    "habilidades": {
+      "nome_original": "Saga",
+      "minimo": {
+        "habilidade": "1115",
+        "livros": 10
+      },
+      "media": {
+        "habilidade": "1335",
+        "livros": 16
+      },
+      "ideal": {
+        "habilidade": "1555",
+        "livros": 30
+      }
+    },
+    "cosmos": {
+      "central": [
+        "ELFO DE VENTO",
+        "CÉU E TERRA"
+      ],
+      "vermelho": [
+        "CÂNTICO DE DRAGÃO"
+      ],
+      "amarelo": [
+        "A CRUZ",
+        "GLÓRIA MATINAL",
+        "SEIYA",
+        "IMPRESSÃO ESPIRITUAL"
+      ],
+      "azul": [
+        "MUNDO INFERIOR"
+      ]
+    }
+  },
+  {
+    "nome": "Saga Maligno",
+    "habilidades": {
+      "nome_original": "Saga Maligno",
+      "minimo": {
+        "habilidade": "1154",
+        "livros": 16
+      },
+      "media": {
+        "habilidade": "3354",
+        "livros": 22
+      },
+      "ideal": {
+        "habilidade": "3355",
+        "livros": 26
+      }
+    },
+    "cosmos": {
+      "central": [
+        "VÍBORA DE CHIFRES"
+      ],
+      "vermelho": [
+        "GALHOS"
+      ],
+      "amarelo": [
+        "GLÓRIA MATINAL",
+        "A CRUZ",
+        "IMPRESSÃO ESPIRITUAL"
+      ],
+      "azul": [
+        "PÉROLAS DE NAGA"
+      ]
+    }
+  },
+  {
+    "nome": "Saga Sapuri",
+    "habilidades": {
+      "nome_original": "Saga Sapuri",
+      "minimo": {
+        "habilidade": "1152",
+        "livros": 11
+      },
+      "media": {
+        "habilidade": "1354",
+        "livros": 19
+      },
+      "ideal": {
+        "habilidade": "3355",
+        "livros": 26
+      }
+    },
+    "cosmos": {
+      "central": [
+        "CÉU E TERRA",
+        "ÍRIS",
+        "ELFO DE SANGUE",
+        "DESACELERADOR"
+      ],
+      "vermelho": [
+        "ANEL DE FLOR",
+        "CÁLICE",
+        "VOLTADO PARA O SOL",
+        "CÂNTIGO DO DRAGÃO"
+      ],
+      "amarelo": [
+        "JADEITE",
+        "JADE BORBOLETA",
+        "IMPRESSÃO ESPIRITUAL"
+      ],
+      "azul": [
+        "LUA NOVA",
+        "ÁGUIA ESCARLATE",
+        "BEIJA-FLOR",
+        "MUNDO INFERIOR"
+      ]
+    }
+  },
+  {
+    "nome": "Sage",
+    "habilidades": {
+      "nome_original": "Sage",
+      "minimo": {
+        "habilidade": "1414",
+        "livros": 12
+      },
+      "media": {
+        "habilidade": "1515",
+        "livros": 20
+      },
+      "ideal": {
+        "habilidade": "1545",
+        "livros": 26
+      }
+    },
+    "cosmos": {
+      "central": [
+        "ÍRIS",
+        "ÂMBAR"
+      ],
+      "vermelho": [
+        "CÁLICE",
+        "NÉVOA BRANCA"
+      ],
+      "amarelo": [
+        "RUNA DO DESTINO",
+        "LICHIA GELADA"
+      ],
+      "azul": [
+        "LUA NOVA",
+        "GARDÊNIA"
+      ]
+    }
+  },
+  {
+    "nome": "Saori",
+    "habilidades": {
+      "nome_original": "Saori",
+      "minimo": {
+        "habilidade": "1512",
+        "livros": 11
+      },
+      "media": {
+        "habilidade": "1533",
+        "livros": 16
+      },
+      "ideal": {
+        "habilidade": "1555",
+        "livros": 30
+      }
+    },
+    "cosmos": {
+      "central": [
+        "LOUREIRO",
+        "ESCARAVELHO",
+        "DENTE DE DRAGÃO"
+      ],
+      "vermelho": [
+        "CÁLICE",
+        "NÉVOA BRANCA",
+        "ANEL DE FLOR"
+      ],
+      "amarelo": [
+        "A CRUZ",
+        "DOURO",
+        "IMPRESSÃO ESPIRITUAL",
+        "GLÓRIA MATINAL"
+      ],
+      "azul": [
+        "BEIJA-FLOR",
+        "GÂRDENIA",
+        "LUA NOVA"
+      ]
+    }
+  },
+  {
+    "nome": "Sasha",
+    "habilidades": {
+      "nome_original": "Sasha",
+      "minimo": {
+        "habilidade": "1513",
+        "livros": 13
+      },
+      "media": {
+        "habilidade": "4513",
+        "livros": 19
+      },
+      "ideal": {
+        "habilidade": "5515",
+        "livros": 30
+      }
+    },
+    "cosmos": {
+      "central": [
+        "ÍRIS",
+        "MANDALA",
+        "FADA DO PÂNTANO"
+      ],
+      "vermelho": [
+        "ANEL DE FLOR",
+        "CÁLICE",
+        "NÉVOA BRANCA"
+      ],
+      "amarelo": [
+        "FOLHA DE JADE",
+        "RUNA DO DESTINO",
+        "A CRUZ",
+        "IMPRESSÃO ESPIRITUAL"
+      ],
+      "azul": [
+        "LUA NOVA",
+        "GÂRDENIA"
+      ]
+    }
+  },
+  {
+    "nome": "Serafina Poseidon",
+    "habilidades": {
+      "nome_original": "Serafina Poseidon",
+      "minimo": {
+        "habilidade": "1343",
+        "livros": 12
+      },
+      "media": {
+        "habilidade": "1545",
+        "livros": 26
+      },
+      "ideal": {
+        "habilidade": "3555",
+        "livros": 33
+      }
+    },
+    "cosmos": {
+      "central": [
+        "MASUJAKA",
+        "ELFO DE SANGUE",
+        "ESCARAVELHO",
+        "FÚSCIA"
+      ],
+      "vermelho": [
+        "CÂNTIGO DO DRAGÃO",
+        "TEBAS",
+        "NÉVOA BRANCA"
+      ],
+      "amarelo": [
+        "IMPRESSÃO ESPIRITUAL",
+        "A CRUZ",
+        "GLÓRIA MATINAL",
+        "DENTE-DE-LEÃO VOADOR"
+      ],
+      "azul": [
+        "IMPRESSÃO ESPIRITUAL",
+        "FOLHA CONGELADA",
+        "FRUTO DA DISCÓRDIA",
+        "GÂRDENIA"
+      ]
+    }
+  },
+  {
+    "nome": "Seya de Sagitário",
+    "habilidades": {
+      "nome_original": "Seya de Sagitário",
+      "minimo": {
+        "habilidade": "5112",
+        "livros": 11
+      },
+      "media": {
+        "habilidade": "5115",
+        "livros": 20
+      },
+      "ideal": {
+        "habilidade": "5155",
+        "livros": 30
+      }
+    },
+    "cosmos": {
+      "central": [
+        "FELINA"
+      ],
+      "vermelho": [
+        "VÍBORA",
+        "LANÇA CHAMA",
+        "GALHOS"
+      ],
+      "amarelo": [
+        "RUNA DO DESTINO",
+        "A CRUZ",
+        "IMPRESSÃO ESPITIRUAL"
+      ],
+      "azul": [
+        "LUA NOVA",
+        "CRISTAL DO FOGO",
+        "PÉROLAS DE NAGA"
+      ]
+    }
+  },
+  {
+    "nome": "Seya Divino",
+    "habilidades": {
+      "nome_original": "Seya Divino",
+      "minimo": {
+        "habilidade": "1441",
+        "livros": 12
+      },
+      "media": {
+        "habilidade": "1551",
+        "livros": 20
+      },
+      "ideal": {
+        "habilidade": "1555",
+        "livros": 30
+      }
+    },
+    "cosmos": {
+      "central": [
+        "QUIMERA",
+        "ESPADA DE DÂMOCLES",
+        "CORRENTE DE HEFESTO"
+      ],
+      "vermelho": [
+        "VÍBORA",
+        "LANÇA CHAMA",
+        "GALHOS"
+      ],
+      "amarelo": [
+        "RUNA DO DESTINO",
+        "IMPRESSÃO ESPIRITUAL"
+      ],
+      "azul": [
+        "CRISTAL DE FOGO",
+        "PÉROLA DE NAGAS"
+      ]
+    }
+  },
+  {
+    "nome": "Shaka",
+    "habilidades": {
+      "nome_original": "Shaka",
+      "minimo": {
+        "habilidade": "1513",
+        "livros": 13
+      },
+      "media": {
+        "habilidade": "1533",
+        "livros": 16
+      },
+      "ideal": {
+        "habilidade": "1555",
+        "livros": 30
+      }
+    },
+    "cosmos": {
+      "central": [
+        "MANDALA",
+        "CÉU E TERRA"
+      ],
+      "vermelho": [
+        "ANEL DE FLOR",
+        "CÁLICE"
+      ],
+      "amarelo": [
+        "JADE BORBOLETA",
+        "JADEÍTE"
+      ],
+      "azul": [
+        "ÁGUIA ESCARLATE",
+        "CARTA"
+      ]
+    }
+  },
+  {
+    "nome": "Shaka Divino",
+    "habilidades": {
+      "nome_original": "Shaka Divino",
+      "minimo": {
+        "habilidade": "4535",
+        "livros": 29
+      },
+      "media": {
+        "habilidade": "5535",
+        "livros": 33
+      },
+      "ideal": {
+        "habilidade": "5555",
+        "livros": 40
+      }
+    },
+    "cosmos": {
+      "central": [
+        "ELFO DE SANGUE",
+        "MANDALA"
+      ],
+      "vermelho": [
+        "DANO DE METEORO",
+        "CÂNTICO DE DRAGÃO"
+      ],
+      "amarelo": [
+        "BORBOLETA ONÍRICA",
+        "SEIYA"
+      ],
+      "azul": [
+        "ÁGUIA ESCARLATE",
+        "TSANGWU"
+      ]
+    }
+  },
+  {
+    "nome": "Shijima",
+    "habilidades": {
+      "nome_original": "Shijima",
+      "minimo": {
+        "habilidade": "1515",
+        "livros": 20
+      },
+      "media": {
+        "habilidade": "4515",
+        "livros": 26
+      },
+      "ideal": {
+        "habilidade": "4545",
+        "livros": 32
+      }
+    },
+    "cosmos": {
+      "central": [
+        "FELINA",
+        "CÉU E TERRA",
+        "MIRRA",
+        "JACINTO"
+      ],
+      "vermelho": [
+        "CÂNTIGO DO DRAGÃO",
+        "TEBAS"
+      ],
+      "amarelo": [
+        "IMPRESSÃO ESPIRITUAL",
+        "A CRUZ",
+        "GLÓRIA MATINAL"
+      ],
+      "azul": [
+        "MUNDO INFERIOR",
+        "BEIJA-FLOR",
+        "GÂRDENIA"
+      ]
+    }
+  },
+  {
+    "nome": "Shion",
+    "habilidades": {
+      "nome_original": "Shion",
+      "minimo": {
+        "habilidade": "1251",
+        "livros": 11
+      },
+      "media": {
+        "habilidade": "1551",
+        "livros": 20
+      },
+      "ideal": {
+        "habilidade": "1555",
+        "livros": 30
+      }
+    },
+    "cosmos": {
+      "central": [
+        "SAPINDUS",
+        "CÉU E TERRA",
+        "CORRENTE DE HEFESTO"
+      ],
+      "vermelho": [
+        "LANÇA CHAMAS",
+        "MÊNFIS"
+      ],
+      "amarelo": [
+        "SABENDO",
+        "A CRUZ",
+        "GLÓRIA MATINAL",
+        "IMPRESSÃO ESPIRITUAL"
+      ],
+      "azul": [
+        "PÉROLAS DE NAGA"
+      ]
+    }
+  },
+  {
+    "nome": "Shion Sapuri",
+    "habilidades": {
+      "nome_original": "Shion Sapuri",
+      "minimo": {
+        "habilidade": "1514",
+        "livros": 16
+      },
+      "media": {
+        "habilidade": "1515",
+        "livros": 20
+      },
+      "ideal": {
+        "habilidade": "1555",
+        "livros": 30
+      }
+    },
+    "cosmos": {
+      "central": [
+        "DENTE DE DRAGÃO",
+        "CHAMA ETERNA",
+        "NARCISO",
+        "FADA DO PÂNTANO"
+      ],
+      "vermelho": [
+        "NÉVOA BRANCA",
+        "CRISTAL DE FOGO",
+        "ANEL DE FLOR",
+        "CÁLICE"
+      ],
+      "amarelo": [
+        "IMPRESSÃO ESPIRITUAL",
+        "A CRUZ",
+        "RUNA DO DESTINO",
+        "FOLHA DE JADE"
+      ],
+      "azul": [
+        "GÂRDENIA",
+        "LUA-NOVA",
+        "PÉROLAS DE NAGA",
+        "FRUTO DA DISCÓRDIA"
+      ]
+    }
+  },
+  {
+    "nome": "Shiryu Divino",
+    "habilidades": {
+      "nome_original": "Shiryu Divino",
+      "minimo": {
+        "habilidade": "1515",
+        "livros": 20
+      },
+      "media": {
+        "habilidade": "4515",
+        "livros": 26
+      },
+      "ideal": {
+        "habilidade": "5555",
+        "livros": 40
+      }
+    },
+    "cosmos": {
+      "central": [
+        "ELFO DE SANGUE",
+        "NARCISO"
+      ],
+      "vermelho": [
+        "ÂMBAR DE SANGUE",
+        "LANÇA CHAMA",
+        "GALHOS"
+      ],
+      "amarelo": [
+        "GLÓRIA MATINAL",
+        "A CRUZ",
+        "IMPRESSÃO ESPIRITUAL"
+      ],
+      "azul": [
+        "PÉROLAS DE NAGA"
+      ]
+    }
+  },
+  {
+    "nome": "Shun Divino",
+    "habilidades": {
+      "nome_original": "Shun Divino",
+      "minimo": {
+        "habilidade": "1221",
+        "livros": 2
+      },
+      "media": {
+        "habilidade": "1551",
+        "livros": 20
+      },
+      "ideal": {
+        "habilidade": "1555",
+        "livros": 30
+      }
+    },
+    "cosmos": {
+      "central": [
+        "ESCARAVELHO",
+        "FÚCSIA",
+        "DENTE DE DRAGÃO"
+      ],
+      "vermelho": [
+        "LANÇA CHAMA",
+        "NÉVOA BRANCA",
+        "GALHOS"
+      ],
+      "amarelo": [
+        "GLÓRIA MATINAL",
+        "A CRUZ",
+        "IMPRESSÃO ESPIRITUAL"
+      ],
+      "azul": [
+        "FRUTO DA DISCÓRDIA",
+        "PÉROLAS DE NAGA"
+      ]
+    }
+  },
+  {
+    "nome": "Shun Hades",
+    "habilidades": {
+      "nome_original": "Shun Hades",
+      "minimo": {
+        "habilidade": "1451",
+        "livros": 16
+      },
+      "media": {
+        "habilidade": "1455",
+        "livros": 26
+      },
+      "ideal": {
+        "habilidade": "1555",
+        "livros": 30
+      }
+    },
+    "cosmos": {
+      "central": [
+        "LOUREIRO",
+        "FADA DO PÂNTANO",
+        "FÚCSIA"
+      ],
+      "vermelho": [
+        "PEDRA C.",
+        "NÉVOA BRANCA"
+      ],
+      "amarelo": [
+        "GLÓRIA MATINAL",
+        "A CRUZ",
+        "IMPRESSÃO ESPIRITUAL"
+      ],
+      "azul": [
+        "MUNDO INFERIOR",
+        "LIVRO DE CURA",
+        "FRUTO DA DISCÓRDIA"
+      ]
+    }
+  },
+  {
+    "nome": "Shun Nebulosa",
+    "habilidades": {
+      "nome_original": "Shun Nebulosa",
+      "minimo": {
+        "habilidade": "1331",
+        "livros": 6
+      },
+      "media": {
+        "habilidade": "1441",
+        "livros": 12
+      },
+      "ideal": {
+        "habilidade": "1551",
+        "livros": 20
+      }
+    },
+    "cosmos": {
+      "central": [
+        "FELINA",
+        "ELFO DE VENTO"
+      ],
+      "vermelho": [
+        "CÂNTICO DE DRAGÃO"
+      ],
+      "amarelo": [
+        "GLÓRIA MATINAL",
+        "A CRUZ",
+        "IMPRESSÃO ESPITIRUAL"
+      ],
+      "azul": [
+        "BEIJA-FLOR",
+        "MUNDO INFERIOR"
+      ]
+    }
+  },
+  {
+    "nome": "Shura",
+    "habilidades": {
+      "nome_original": "Shura",
+      "minimo": {
+        "habilidade": "1214",
+        "livros": 7
+      },
+      "media": {
+        "habilidade": "1514",
+        "livros": 16
+      },
+      "ideal": {
+        "habilidade": "1555",
+        "livros": 30
+      }
+    },
+    "cosmos": {
+      "central": [
+        "CÉU E TERRA",
+        "FELINA",
+        "CORRENTE DE HEFESTO"
+      ],
+      "vermelho": [
+        "LANÇA CHAMA",
+        "GALHOS"
+      ],
+      "amarelo": [
+        "GLÓRIA MATINAL",
+        "A CRUZ",
+        "IMPRESSÃO ESPIRITUAL"
+      ],
+      "azul": [
+        "CRISTAL DE FOGO",
+        "PÉROLAS DE NAGA"
+      ]
+    }
+  },
+  {
+    "nome": "Shura Divino",
+    "habilidades": {
+      "nome_original": "Shura Divino",
+      "minimo": {
+        "habilidade": "4443",
+        "livros": 21
+      },
+      "media": {
+        "habilidade": "4453",
+        "livros": 25
+      },
+      "ideal": {
+        "habilidade": "4455",
+        "livros": 32
+      }
+    },
+    "cosmos": {
+      "central": [
+        "VÍBORA DE CHIFRES",
+        "ELFO DE SANGUE",
+        "FELINA",
+        "CÉU E TERRA"
+      ],
+      "vermelho": [
+        "BAROQUE",
+        "GALHOS"
+      ],
+      "amarelo": [
+        "IMPRESSÃO ESPIRITUAL",
+        "GLÓRIA MATINAL",
+        "RUNA DO DESTINO"
+      ],
+      "azul": [
+        "PÉROLAS DE NAGA",
+        "CRISTAL DO FOGO"
+      ]
+    }
+  },
+  {
+    "nome": "Shura Sapuri",
+    "habilidades": {
+      "nome_original": "Shura Sapuri",
+      "minimo": {
+        "habilidade": "1315",
+        "livros": 13
+      },
+      "media": {
+        "habilidade": "1515",
+        "livros": 20
+      },
+      "ideal": {
+        "habilidade": "5515",
+        "livros": 30
+      }
+    },
+    "cosmos": {
+      "central": [
+        "FÚCSIA",
+        "ELFO DE SANGUE",
+        "VÍBORA DE CHIFRES",
+        "QUIMERA"
+      ],
+      "vermelho": [
+        "BAROQUE",
+        "GALHOS"
+      ],
+      "amarelo": [
+        "IMPRESSÃO ESPIRITUAL",
+        "A CRUZ"
+      ],
+      "azul": [
+        "PÉROLAS DE NAGA",
+        "SONHO BOM"
+      ]
+    }
+  },
+  {
+    "nome": "Sorento",
+    "habilidades": {
+      "nome_original": "Sorento",
+      "minimo": {
+        "habilidade": "1412",
+        "livros": 7
+      },
+      "media": {
+        "habilidade": "1515",
+        "livros": 20
+      },
+      "ideal": {
+        "habilidade": "1555",
+        "livros": 30
+      }
+    },
+    "cosmos": {
+      "central": [
+        "DENTE DE DRAGÃO",
+        "FÚCSIA"
+      ],
+      "vermelho": [
+        "OLHO DE ÁGUIA",
+        "NÉVOA BRANCA"
+      ],
+      "amarelo": [
+        "SEIYA",
+        "GLÓRIA MATINAL",
+        "A CRUZ",
+        "IMPRESSÃO ESPIRITUAL"
+      ],
+      "azul": [
+        "ÁGUIA ESCARLATE"
+      ]
+    }
+  },
+  {
+    "nome": "Suikyo",
+    "habilidades": {
+      "nome_original": "Suikyo",
+      "minimo": {
+        "habilidade": "4545",
+        "livros": 32
+      },
+      "media": {
+        "habilidade": "4555",
+        "livros": 36
+      },
+      "ideal": {
+        "habilidade": "5555",
+        "livros": 40
+      }
+    },
+    "cosmos": {
+      "central": [
+        "VIUVA NEGRA",
+        "CÉU E TERRA"
+      ],
+      "vermelho": [
+        "CÂNTIGO DO DRAGÃO",
+        "ESPIRITO DA FUNDIÇÃO"
+      ],
+      "amarelo": [
+        "LICHIA GELADA",
+        "FOLHA DE JADE"
+      ],
+      "azul": [
+        "MUNDO INFERIOR",
+        "COROA DE OURO"
+      ]
+    }
+  },
+  {
+    "nome": "Tânatos",
+    "habilidades": {
+      "nome_original": "Tânatos",
+      "minimo": {
+        "habilidade": "1125",
+        "livros": 11
+      },
+      "media": {
+        "habilidade": "1445",
+        "livros": 22
+      },
+      "ideal": {
+        "habilidade": "3555",
+        "livros": 33
+      }
+    },
+    "cosmos": {
+      "central": [
+        "CÉU E TERRA",
+        "VÍBORA DE CHIFRES",
+        "FÚCSIA"
+      ],
+      "vermelho": [
+        "GALHOS",
+        "BAROQUE"
+      ],
+      "amarelo": [
+        "IMPRESSÃO ESPIRITUAL",
+        "A CRUZ",
+        "GLÓRIA MATINAL",
+        "RESSÔNANCIA SAGRADA"
+      ],
+      "azul": [
+        "PÉROLAS DE NAGA",
+        "CRISTAL DO FOGO"
+      ]
+    }
+  },
+  {
+    "nome": "Tenma",
+    "habilidades": {
+      "nome_original": "Tenma",
+      "minimo": {
+        "habilidade": "1122",
+        "livros": 4
+      },
+      "media": {
+        "habilidade": "1353",
+        "livros": 32
+      },
+      "ideal": {
+        "habilidade": "1555",
+        "livros": 60
+      }
+    },
+    "cosmos": {
+      "central": [
+        "FÚCSIA",
+        "ÁRVORE DA RESSURREIÇÃO"
+      ],
+      "vermelho": [
+        "BAROQUE",
+        "GALHOS",
+        "NÉVOA BRANCA"
+      ],
+      "amarelo": [
+        "LICHIA GELADA",
+        "GLÓRIA MATINAL"
+      ],
+      "azul": [
+        "FRUTO DA DISCÓRDIA",
+        "PÉROLAS DE NAGA"
+      ]
+    }
+  },
+  {
+    "nome": "Tohma",
+    "habilidades": {
+      "nome_original": "Tohma",
+      "minimo": {
+        "habilidade": "3534",
+        "livros": 22
+      },
+      "media": {
+        "habilidade": "3554",
+        "livros": 29
+      },
+      "ideal": {
+        "habilidade": "5554",
+        "livros": 36
+      }
+    },
+    "cosmos": {
+      "central": [
+        "MARTIM-PESCADOR",
+        "VÍBORA DE CHIFRES"
+      ],
+      "vermelho": [
+        "BAROQUE",
+        "GALHOS"
+      ],
+      "amarelo": [
+        "LICHIA GELADA",
+        "GLÓRIA MATINAL"
+      ],
+      "azul": [
+        "SONHO BOM",
+        "PÉROLAS DE NAGA"
+      ]
+    }
+  },
+  {
+    "nome": "Unity",
+    "habilidades": {
+      "nome_original": "Unity",
+      "minimo": {
+        "habilidade": "3115",
+        "livros": 13
+      },
+      "media": {
+        "habilidade": "5115",
+        "livros": 20
+      },
+      "ideal": {
+        "habilidade": "5515",
+        "livros": 30
+      }
+    },
+    "cosmos": {
+      "central": [
+        "FÚCSIA",
+        "LADON"
+      ],
+      "vermelho": [
+        "NÉVOA BRANCA"
+      ],
+      "amarelo": [
+        "LICHIA GELADA",
+        "GLÓRIA MATINAL"
+      ],
+      "azul": [
+        "FRUTO DA DISCÓRDIA",
+        "GÂRDENIA"
+      ]
+    }
+  },
+  {
+    "nome": "Yohma",
+    "habilidades": {
+      "nome_original": "Yohma",
+      "minimo": {
+        "habilidade": "1415",
+        "livros": 32
+      },
+      "media": {
+        "habilidade": "1515",
+        "livros": 40
+      },
+      "ideal": {
+        "habilidade": "1555",
+        "livros": 60
+      }
+    },
+    "cosmos": {
+      "central": [
+        "CÉU E TERRA",
+        "ÁRVORE DA RESSURREIÇÃO"
+      ],
+      "vermelho": [
+        "BAROQUE",
+        "GALHOS"
+      ],
+      "amarelo": [
+        "LICHIA GELADA",
+        "GLÓRIA MATINAL"
+      ],
+      "azul": [
+        "SONHO BOM",
+        "PÉROLAS DE NAGA"
+      ]
+    }
+  }
+]
