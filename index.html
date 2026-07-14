@@ -310,17 +310,55 @@
   @media (prefers-reduced-motion: reduce){
     #card{ animation:none; }
   }
+
+  .lang-switch{
+    position:fixed;
+    top:18px; right:18px;
+    z-index:10;
+    display:flex;
+    background:var(--panel);
+    border:1px solid var(--line);
+    border-radius:3px;
+    overflow:hidden;
+  }
+  .lang-btn{
+    font-family:'Rajdhani', sans-serif;
+    font-weight:700;
+    font-size:13px;
+    letter-spacing:0.08em;
+    background:transparent;
+    border:none;
+    color:var(--text-dim);
+    padding:8px 14px;
+    cursor:pointer;
+    transition: background .15s, color .15s;
+  }
+  .lang-btn + .lang-btn{ border-left:1px solid var(--line); }
+  .lang-btn:hover{ color:var(--text); }
+  .lang-btn.active{
+    background:var(--bronze-soft);
+    color:#f2d9ad;
+  }
+  @media (max-width:480px){
+    .lang-switch{ top:10px; right:10px; }
+    .lang-btn{ padding:7px 11px; font-size:12px; }
+  }
 </style>
 </head>
 <body>
 
 <canvas id="stars"></canvas>
 
+<div class="lang-switch" id="langSwitch">
+  <button type="button" data-lang="pt" class="lang-btn active">PT</button>
+  <button type="button" data-lang="es" class="lang-btn">ES</button>
+</div>
+
 <div class="wrap">
   <header>
-    <div class="eyebrow">Legião Saint Seiya Awakening</div>
+    <div class="eyebrow" id="txtEyebrow">Legião Saint Seiya Awakening</div>
     <h1>MáfiaBR</h1>
-    <div class="sub">Consulta de Habilidades e Cosmos por Cavaleiro</div>
+    <div class="sub" id="txtSub">Consulta de Habilidades e Cosmos por Cavaleiro</div>
     <div class="divider"></div>
   </header>
 
@@ -334,23 +372,23 @@
 
   <div id="card">
     <div class="knight-header">
-      <div class="k-eyebrow">Cavaleiro Selecionado</div>
+      <div class="k-eyebrow" id="txtKEyebrow">Cavaleiro Selecionado</div>
       <h2 id="knightName">—</h2>
     </div>
 
     <section class="block">
-      <div class="block-title">Progressão de Habilidade</div>
+      <div class="block-title" id="txtHabTitle">Progressão de Habilidade</div>
       <div class="hab-track" id="habTrack"></div>
     </section>
 
     <section class="block">
-      <div class="block-title">Sugestão de Cosmos</div>
+      <div class="block-title" id="txtCosmoTitle">Sugestão de Cosmos</div>
       <div class="cosmo-grid" id="cosmoGrid"></div>
     </section>
   </div>
 
   <footer>
-    <span class="legion">MÁFIABR</span> · Saint Seiya Awakening · dados mantidos no GitHub
+    <span class="legion">MÁFIABR</span> · <span id="txtFooter">Saint Seiya Awakening · dados mantidos no GitHub</span>
   </footer>
 </div>
 
@@ -410,8 +448,75 @@
     }
   })();
 
+  // ---------- i18n ----------
+  const I18N = {
+    pt: {
+      eyebrow: 'Legião Saint Seiya Awakening',
+      sub: 'Consulta de Habilidades e Cosmos por Cavaleiro',
+      placeholder: 'Digite o nome do cavaleiro...',
+      countSuffix: ' cavaleiros',
+      countError: 'erro ao carregar dados',
+      noMatch: 'Nenhum cavaleiro encontrado com esse nome.',
+      kEyebrow: 'Cavaleiro Selecionado',
+      habTitle: 'Progressão de Habilidade',
+      cosmoTitle: 'Sugestão de Cosmos',
+      footer: 'Saint Seiya Awakening · dados mantidos no GitHub',
+      stageMinimo: 'Mínimo', stageMedia: 'Média', stageIdeal: 'Ideal',
+      livros: 'livros',
+      noHab: 'Sem dados de habilidade para este cavaleiro.',
+      noCosmo: 'Sem dados de cosmos para este cavaleiro.',
+      noSuggestion: 'Sem sugestão registrada.',
+      cosmoCentral: 'Central', cosmoVermelho: 'Vermelho', cosmoAmarelo: 'Amarelo', cosmoAzul: 'Azul',
+    },
+    es: {
+      eyebrow: 'Legión Saint Seiya Awakening',
+      sub: 'Consulta de Habilidades y Cosmos por Caballero',
+      placeholder: 'Escribe el nombre del caballero...',
+      countSuffix: ' caballeros',
+      countError: 'error al cargar los datos',
+      noMatch: 'No se encontró ningún caballero con ese nombre.',
+      kEyebrow: 'Caballero Seleccionado',
+      habTitle: 'Progresión de Habilidad',
+      cosmoTitle: 'Sugerencia de Cosmos',
+      footer: 'Saint Seiya Awakening · datos alojados en GitHub',
+      stageMinimo: 'Mínimo', stageMedia: 'Media', stageIdeal: 'Ideal',
+      livros: 'libros',
+      noHab: 'Sin datos de habilidad para este caballero.',
+      noCosmo: 'Sin datos de cosmos para este caballero.',
+      noSuggestion: 'Sin sugerencia registrada.',
+      cosmoCentral: 'Central', cosmoVermelho: 'Rojo', cosmoAmarelo: 'Amarillo', cosmoAzul: 'Azul',
+    }
+  };
+  let LANG = 'pt';
+
+  function t(key){ return I18N[LANG][key]; }
+
+  function applyStaticTexts(){
+    document.getElementById('txtEyebrow').textContent = t('eyebrow');
+    document.getElementById('txtSub').textContent = t('sub');
+    searchInput.placeholder = t('placeholder');
+    document.getElementById('emptyState').textContent = t('noMatch');
+    document.getElementById('txtKEyebrow').textContent = t('kEyebrow');
+    document.getElementById('txtHabTitle').textContent = t('habTitle');
+    document.getElementById('txtCosmoTitle').textContent = t('cosmoTitle');
+    document.getElementById('txtFooter').textContent = t('footer');
+    if(CAVALEIROS.length){
+      countLabel.textContent = CAVALEIROS.length + t('countSuffix');
+    }
+  }
+
+  document.querySelectorAll('.lang-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      LANG = btn.dataset.lang;
+      document.querySelectorAll('.lang-btn').forEach(b => b.classList.toggle('active', b === btn));
+      applyStaticTexts();
+      if(currentKnight){ selectKnight(currentKnight); }
+    });
+  });
+
   // ---------- data + search ----------
   let CAVALEIROS = [];
+  let currentKnight = null;
 
   const searchInput = document.getElementById('searchInput');
   const resultsBox = document.getElementById('results');
@@ -423,10 +528,10 @@
     .then(r => r.json())
     .then(data => {
       CAVALEIROS = data;
-      countLabel.textContent = data.length + ' cavaleiros';
+      countLabel.textContent = data.length + t('countSuffix');
     })
     .catch(err => {
-      countLabel.textContent = 'erro ao carregar dados';
+      countLabel.textContent = t('countError');
       console.error('Falha ao carregar cavaleiros.json', err);
     });
 
@@ -444,6 +549,7 @@
     if(matches.length === 0){
       resultsBox.classList.remove('open');
       emptyState.style.display = searchInput.value.trim() ? 'block' : 'none';
+      emptyState.textContent = t('noMatch');
       return;
     }
     emptyState.style.display = 'none';
@@ -509,14 +615,17 @@
     }
   });
 
-  const COSMO_META = {
-    central:  { label: 'Central',  color: 'var(--central)',  glow: 'var(--central-glow)' },
-    vermelho: { label: 'Vermelho', color: 'var(--vermelho)', glow: 'var(--vermelho-glow)' },
-    amarelo:  { label: 'Amarelo',  color: 'var(--amarelo)',  glow: 'var(--amarelo-glow)' },
-    azul:     { label: 'Azul',     color: 'var(--azul)',     glow: 'var(--azul-glow)' },
-  };
+  function cosmoMeta(){
+    return {
+      central:  { label: t('cosmoCentral'),  color: 'var(--central)',  glow: 'var(--central-glow)' },
+      vermelho: { label: t('cosmoVermelho'), color: 'var(--vermelho)', glow: 'var(--vermelho-glow)' },
+      amarelo:  { label: t('cosmoAmarelo'),  color: 'var(--amarelo)',  glow: 'var(--amarelo-glow)' },
+      azul:     { label: t('cosmoAzul'),     color: 'var(--azul)',     glow: 'var(--azul-glow)' },
+    };
+  }
 
   function selectKnight(c){
+    currentKnight = c;
     searchInput.value = c.nome;
     resultsBox.classList.remove('open');
     emptyState.style.display = 'none';
@@ -525,9 +634,9 @@
     const habTrack = document.getElementById('habTrack');
     habTrack.innerHTML = '';
     const stages = [
-      { key: 'minimo', label: 'Mínimo' },
-      { key: 'media',  label: 'Média'  },
-      { key: 'ideal',  label: 'Ideal'  },
+      { key: 'minimo', label: t('stageMinimo') },
+      { key: 'media',  label: t('stageMedia')  },
+      { key: 'ideal',  label: t('stageIdeal')  },
     ];
     if(c.habilidades){
       stages.forEach((stage, i) => {
@@ -537,7 +646,7 @@
         div.innerHTML = `
           <div class="stage-label">${stage.label}</div>
           <div class="code">${s && s.habilidade !== 'nan' ? s.habilidade : '—'}</div>
-          <div class="books">${s && s.livros !== null ? s.livros + ' livros' : ''}</div>
+          <div class="books">${s && s.livros !== null ? s.livros + ' ' + t('livros') : ''}</div>
         `;
         habTrack.appendChild(div);
         if(i < stages.length-1){
@@ -548,12 +657,13 @@
         }
       });
     } else {
-      habTrack.innerHTML = '<div class="cosmo-empty">Sem dados de habilidade para este cavaleiro.</div>';
+      habTrack.innerHTML = `<div class="cosmo-empty">${t('noHab')}</div>`;
     }
 
     const cosmoGrid = document.getElementById('cosmoGrid');
     cosmoGrid.innerHTML = '';
     if(c.cosmos){
+      const COSMO_META = cosmoMeta();
       Object.keys(COSMO_META).forEach(key => {
         const meta = COSMO_META[key];
         const items = c.cosmos[key] || [];
@@ -565,13 +675,13 @@
         if(items.length){
           listHtml = '<ul class="cosmo-list">' + items.map(it => `<li><span class="dot"></span>${it}</li>`).join('') + '</ul>';
         } else {
-          listHtml = '<div class="cosmo-empty">Sem sugestão registrada.</div>';
+          listHtml = `<div class="cosmo-empty">${t('noSuggestion')}</div>`;
         }
         slot.innerHTML = `<div class="slot-name">${meta.label}</div>${listHtml}`;
         cosmoGrid.appendChild(slot);
       });
     } else {
-      cosmoGrid.innerHTML = '<div class="cosmo-empty">Sem dados de cosmos para este cavaleiro.</div>';
+      cosmoGrid.innerHTML = `<div class="cosmo-empty">${t('noCosmo')}</div>`;
     }
 
     card.style.display = 'block';
