@@ -3888,13 +3888,13 @@
         "DESACELERADOR"
       ],
       "vermelho": [
-        "ESPIRITO DA FUNDIÇÃO"
+        "ESPIRITO DA FUNDIÇÃO",
         "DANO DE METEORO"
       ],
       "amarelo": [
         "LICHIA GELADA",
-        "DENTE DE LEÃO VOADOR"        
-	"GLÓRIA MATINAL"
+        "DENTE DE LEÃO VOADOR",
+        "GLÓRIA MATINAL"
       ],
       "azul": [
         "FOLHA CONGELADA",
@@ -3902,6 +3902,7 @@
       ]
     }
   },
+  {
     "nome": "Garnet",
     "habilidades": {
       "nome_original": "Garnet",
@@ -3924,7 +3925,7 @@
         "ÂMBAR"
       ],
       "vermelho": [
-        "PRESENTE DIVINO"
+        "PRESENTE DIVINO",
         "NÉVOA BRANCA"
       ],
       "amarelo": [
