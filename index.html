@@ -574,6 +574,7 @@
     <button type="button" class="tab-btn" data-tab="doacoes" data-i18n="navDoacoes">Doações</button>
     <button type="button" class="tab-btn" data-tab="torre" data-i18n="navTorre">Mapa da Torre Maligna</button>
     <button type="button" class="tab-btn" data-tab="gtarcade" data-i18n="navGtarcade">Acesso Pontos GT Arcade</button>
+    <button type="button" class="tab-btn" data-tab="mixer" data-i18n="navMixer">Mixer de Flores</button>
   </nav>
 
   <section class="tab-panel active" id="panel-cosmos">
@@ -807,6 +808,48 @@
     </div>
   </section>
 
+  <section class="tab-panel" id="panel-mixer">
+    <p class="gt-intro" data-i18n="m_intro">Tabela de experiência do Mixer de Flores (Templos), por subnível e por nível. As colunas "a" e "b" mostram os parâmetros da fórmula usada para calcular a experiência necessária.</p>
+    <div class="data-table-wrap">
+      <table class="data-table">
+        <tr>
+          <th rowspan="2" data-i18n="m_th_mixer">MIXER</th>
+          <th rowspan="2" data-i18n="m_th_subniveis">Subníveis</th>
+          <th rowspan="2" data-i18n="m_th_exp_sub">Exp. + por subnível</th>
+          <th colspan="2" data-i18n="m_th_formula">Fórmula Exp por nível (an+b)</th>
+          <th colspan="2" data-i18n="m_th_integral">Integral (an²+bn)</th>
+          <th rowspan="2" data-i18n="m_th_expsub1">Exp. Subnível 1</th>
+          <th rowspan="2" data-i18n="m_th_expsubmax">Exp. Subnível máx.</th>
+          <th rowspan="2" data-i18n="m_th_expacum">Exp. Total acumulada (até subnível 1)</th>
+          <th rowspan="2" data-i18n="m_th_exptotal">Exp. Total Nível</th>
+        </tr>
+        <tr>
+          <th data-i18n="m_th_a1">a</th><th data-i18n="m_th_b1">b</th><th data-i18n="m_th_a2">a</th><th data-i18n="m_th_b2">b</th>
+        </tr>
+          <tr><td>1</td><td>80</td><td>10</td><td>10</td><td>20</td><td>5</td><td>25</td><td><strong>30</strong></td><td><strong>820</strong></td><td><strong>-</strong></td><td><strong>34.000</strong></td></tr>
+          <tr><td>2</td><td>100</td><td>20</td><td>20</td><td>900</td><td>10</td><td>910</td><td><strong>920</strong></td><td><strong>2.900</strong></td><td><strong>34.000</strong></td><td><strong>191.000</strong></td></tr>
+          <tr><td>3</td><td>120</td><td>30</td><td>30</td><td>2.970</td><td>15</td><td>2.985</td><td><strong>3.000</strong></td><td><strong>6.570</strong></td><td><strong>225.000</strong></td><td><strong>574.200</strong></td></tr>
+          <tr><td>4</td><td>140</td><td>40</td><td>40</td><td>6.630</td><td>20</td><td>6.650</td><td><strong>6.670</strong></td><td><strong>12.230</strong></td><td><strong>799.200</strong></td><td><strong>1.323.000</strong></td></tr>
+          <tr><td>5</td><td>160</td><td>50</td><td>50</td><td>12.280</td><td>25</td><td>12.305</td><td><strong>12.330</strong></td><td><strong>20.280</strong></td><td><strong>2.122.200</strong></td><td><strong>2.608.800</strong></td></tr>
+          <tr><td>6</td><td>180</td><td>60</td><td>60</td><td>20.320</td><td>30</td><td>20.350</td><td><strong>20.380</strong></td><td><strong>31.120</strong></td><td><strong>4.731.000</strong></td><td><strong>4.635.000</strong></td></tr>
+          <tr><td>7</td><td>200</td><td>70</td><td>70</td><td>31.150</td><td>35</td><td>31.185</td><td><strong>31.220</strong></td><td><strong>45.150</strong></td><td><strong>9.366.000</strong></td><td><strong>7.637.000</strong></td></tr>
+          <tr><td>8</td><td>220</td><td>80</td><td>80</td><td>45.170</td><td>40</td><td>45.210</td><td><strong>45.250</strong></td><td><strong>62.770</strong></td><td><strong>17.003.000</strong></td><td><strong>11.882.200</strong></td></tr>
+          <tr><td>9</td><td>240</td><td>90</td><td>90</td><td>62.780</td><td>45</td><td>62.825</td><td><strong>62.870</strong></td><td><strong>84.380</strong></td><td><strong>28.885.200</strong></td><td><strong>17.670.000</strong></td></tr>
+          <tr><td>10</td><td>260</td><td>100</td><td>100</td><td>84.380</td><td>50</td><td>84.430</td><td><strong>84.480</strong></td><td><strong>110.380</strong></td><td><strong>46.555.200</strong></td><td><strong>25.331.800</strong></td></tr>
+          <tr><td>11</td><td>280</td><td>110</td><td>110</td><td>110.370</td><td>55</td><td>110.425</td><td><strong>110.480</strong></td><td><strong>141.170</strong></td><td><strong>71.887.000</strong></td><td><strong>35.231.000</strong></td></tr>
+          <tr><td>12</td><td>300</td><td>120</td><td>120</td><td>141.150</td><td>60</td><td>141.210</td><td><strong>141.270</strong></td><td><strong>177.150</strong></td><td><strong>107.118.000</strong></td><td><strong>47.763.000</strong></td></tr>
+          <tr><td>13</td><td>320</td><td>130</td><td>130</td><td>177.120</td><td>65</td><td>177.185</td><td><strong>177.250</strong></td><td><strong>218.720</strong></td><td><strong>154.881.000</strong></td><td><strong>63.355.200</strong></td></tr>
+          <tr><td>14</td><td>340</td><td>140</td><td>140</td><td>218.680</td><td>70</td><td>218.750</td><td><strong>218.820</strong></td><td><strong>266.280</strong></td><td><strong>218.236.200</strong></td><td><strong>82.467.000</strong></td></tr>
+          <tr><td>15</td><td>360</td><td>150</td><td>150</td><td>266.230</td><td>75</td><td>266.305</td><td><strong>266.380</strong></td><td><strong>320.230</strong></td><td><strong>300.703.200</strong></td><td><strong>105.589.800</strong></td></tr>
+          <tr><td>16</td><td>380</td><td>160</td><td>160</td><td>320.170</td><td>80</td><td>320.250</td><td><strong>320.330</strong></td><td><strong>380.970</strong></td><td><strong>406.293.000</strong></td><td><strong>133.247.000</strong></td></tr>
+          <tr><td>17</td><td>400</td><td>170</td><td>170</td><td>380.900</td><td>85</td><td>380.985</td><td><strong>381.070</strong></td><td><strong>448.900</strong></td><td><strong>539.540.000</strong></td><td><strong>165.994.000</strong></td></tr>
+          <tr><td>18</td><td>420</td><td>180</td><td>180</td><td>448.820</td><td>90</td><td>448.910</td><td><strong>449.000</strong></td><td><strong>524.420</strong></td><td><strong>705.534.000</strong></td><td><strong>204.418.200</strong></td></tr>
+          <tr><td>19</td><td>440</td><td>190</td><td>190</td><td>524.330</td><td>95</td><td>524.425</td><td><strong>524.520</strong></td><td><strong>607.930</strong></td><td><strong>909.952.200</strong></td><td><strong>249.139.000</strong></td></tr>
+          <tr><td>20</td><td>460</td><td>200</td><td>200</td><td>607.830</td><td>100</td><td>607.930</td><td><strong>608.030</strong></td><td><strong>699.830</strong></td><td><strong>1.159.091.200</strong></td><td><strong>300.807.800</strong></td></tr>
+      </table>
+    </div>
+  </section>
+
   <footer>
     <span class="legion">MÁFIABR</span> · <span id="txtFooter">Saint Seiya Awakening · dados mantidos no GitHub</span>
   </footer>
@@ -949,6 +992,14 @@
       g_shop_li1: '<span class="freq">Todos os dias:</span> Stamina Surprise (grátis) e Flower Lucky Pack II (300 pts)',
       g_shop_li2: '<span class="freq">Todas as semanas:</span> Skill Tome Shard Pack — 1x (1.000 pts); Will of Star Pack e Flower Box Pack — 2x cada (1.000 pts cada)',
       g_shop_li3: '<span class="freq">Todos os meses:</span> Skin Voucher Pack — 2x (1.000 pts cada)',
+
+      navMixer: 'Mixer de Flores',
+      m_intro: 'Tabela de experiência do Mixer de Flores (Templos), por subnível e por nível. As colunas "a" e "b" mostram os parâmetros da fórmula usada para calcular a experiência necessária.',
+      m_th_mixer: 'MIXER', m_th_subniveis: 'Subníveis', m_th_exp_sub: 'Exp. + por subnível',
+      m_th_formula: 'Fórmula Exp por nível (an+b)', m_th_integral: 'Integral (an²+bn)',
+      m_th_expsub1: 'Exp. Subnível 1', m_th_expsubmax: 'Exp. Subnível máx.',
+      m_th_expacum: 'Exp. Total acumulada (até subnível 1)', m_th_exptotal: 'Exp. Total Nível',
+      m_th_a1: 'a', m_th_b1: 'b', m_th_a2: 'a', m_th_b2: 'b',
     },
     es: {
       eyebrow: 'Legión Saint Seiya Awakening',
@@ -1029,6 +1080,14 @@
       g_shop_li1: '<span class="freq">Todos los días:</span> Stamina Surprise (gratis) y Flower Lucky Pack II (300 pts)',
       g_shop_li2: '<span class="freq">Todas las semanas:</span> Skill Tome Shard Pack — 1x (1.000 pts); Will of Star Pack y Flower Box Pack — 2x cada uno (1.000 pts cada uno)',
       g_shop_li3: '<span class="freq">Todos los meses:</span> Skin Voucher Pack — 2x (1.000 pts cada uno)',
+
+      navMixer: 'Mixer de Flores',
+      m_intro: 'Tabla de experiencia del Mixer de Flores (Templos), por subnivel y por nivel. Las columnas "a" y "b" muestran los parámetros de la fórmula usada para calcular la experiencia necesaria.',
+      m_th_mixer: 'MIXER', m_th_subniveis: 'Subniveles', m_th_exp_sub: 'Exp. + por subnivel',
+      m_th_formula: 'Fórmula Exp por nivel (an+b)', m_th_integral: 'Integral (an²+bn)',
+      m_th_expsub1: 'Exp. Subnivel 1', m_th_expsubmax: 'Exp. Subnivel máx.',
+      m_th_expacum: 'Exp. Total acumulada (hasta subnivel 1)', m_th_exptotal: 'Exp. Total Nivel',
+      m_th_a1: 'a', m_th_b1: 'b', m_th_a2: 'a', m_th_b2: 'b',
     }
   };
   let LANG = 'pt';
